@@ -1,54 +1,138 @@
 import React from 'react';
+import { PageTitle } from '../../components/PageTitle';
+import { Banner } from '../../components/Banner';
+import { Card } from '../../components/Card';
+import { CardMember } from '../../components/CardMember';
+import { CardAncientMember } from '../../components/CardAncientMember';
 
 import './styles.css';
+import imgBanner from '../../images/maxresdefault.jpg';
+import logo from '../../images/logo_OSmOSE_neg.png';
+import defautPortrait from '../../images/default_profil.png'
+// import projectImg from '../../images/logo_project.png';
 
 export const People: React.FC = () => {
-  return (
-    <div className="people">
-      <h2>People</h2>
+return (
+<div className="people">
 
-      <section>
-        <h3>ODE: Ocean Data Explorer</h3>
-        <p>Develop all the computer technology used to manage and process Data (at scale with speed and in context, naturally Big).</p>
-        <h4>Members</h4>
-        <ul>
-          <li>Joseph Allemandou</li>
-          <li>Alexandre Degurse</li>
-          <li>Erwan Keribin</li>
-          <li>Romain Vovard</li>
-        </ul>
-      </section>
+  <PageTitle 
+  title="People"
+  img={imgBanner}
+  imgAlt="People Banner"
+  // imgSet=""
+  >
+  </PageTitle>
 
-      <section>
-        <h3>AIE</h3>
-        <p>Develop all the computer technology used to make computers learn and recognize ocean sounds like humans (like whales or shrimps should be better?)</p>
-        <h4>Members</h4>
-        <ul>
-          <li>Dorian Cazau</li>
-          <li>Léa Bouffaut</li>
-          <li>Richard Dréo</li>
-          <li>Paul Nguyen Hong Duc</li>
-        </ul>
-      </section>
+  <section className="container">
+    <Card
+    title="Osmose"
+    img={logo}
+    imgSide="left"
+    imgAlt="Génial"
+    url="/people"
+    urlDesc="Lien vers la page"
+    >
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Facilis sint dolor illum modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima et temporibus aliquid perferendis facilis, nihil est cumque? Odio commodi fuga quod ipsa. Earum ut labore totam inventore deserunt! Voluptate, explicabo.</p>
+    </Card>
+  </section>
 
-      <section>
-        <h3>Underwater Passive Acoustics Sciences</h3>
-        <p>Do all the ocean science based on UPA (mainly about whale monitoring and conservation for the moment but we never know)</p>
-        <h4>Members</h4>
-        <ul>
-          <li>Olivier Adam</li>
-          <li>Julie Beesau</li>
-          <li>Fabio Cassiano</li>
-          <li>Yann Doh</li>
-          <li>Rémi Emmetiere</li>
-          <li>Emmanuelle Leroy</li>
-          <li>Delphine Mathias</li>
-          <li>Gaetan Richard</li>
-          <li>Flore Samaran</li>
-          <li>Maelle Torterotot</li>
-          <li>Youenn Jézéquel</li>
-        </ul>
-      </section>
+  <div className="container">
+    <p>Instituts affiliées :</p>
+  </div>
+  <Banner>
+    <img className="card-img" src={logo} alt="" title="" />
+    <img className="card-img" src={logo} alt="" title="" />
+    <img className="card-img" src={logo} alt="" title="" />
+    <img className="card-img" src={logo} alt="" title="" />
+  </Banner>
+
+  <section className="container">
+
+    <h2>Core team</h2>
+
+    <CardMember 
+    name="Dodo LA CASE"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Génial"
+    job="Data Scientist"
+    // url=""
+    >
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat?</p>
+    </CardMember>
+
+    <CardMember 
+    name="Floflo BOUTON"
+    img={defautPortrait}
+    imgSide="right"
+    imgAlt="Génial"
+    job="Data Scientist"
+    // url="http://www.google.com"
+    >
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat?</p>
+    </CardMember>
+  </section>
+
+  <section className="container">
+
+    <h2>Ancients members</h2>
+    <p>Remerciements</p>
+
+    <div className="grid-container">
+      <CardAncientMember 
+        img={defautPortrait}
+        imgAlt="Ma photo"
+        name="Henri BEAUCOUR"
+        job="Super"
+        // url=""
+      >
+      </CardAncientMember>
+
+      <CardAncientMember 
+        img={defautPortrait}
+        imgAlt="Ma photo"
+        name="Michel BEAUCOUR"
+        job="Super"
+        // url=""
+      >
+      </CardAncientMember>
+      <CardAncientMember 
+        img={defautPortrait}
+        imgAlt="Ma photo"
+        name="Michel BEAUCOUR"
+        job="Super"
+        // url=""
+      >
+      </CardAncientMember>
+      <CardAncientMember 
+        img={defautPortrait}
+        imgAlt="Ma photo"
+        name="Michel BEAUCOUR"
+        job="Super"
+        // url=""
+      >
+      </CardAncientMember>
+      <CardAncientMember 
+        img={defautPortrait}
+        imgAlt="Ma photo"
+        name="Michel BEAUCOUR"
+        job="Super"
+        // url=""
+      >
+      </CardAncientMember>
+      <CardAncientMember 
+        img={defautPortrait}
+        imgAlt="Ma photo"
+        name="Michel BEAUCOUR"
+        job="Super"
+        // url=""
+      >
+      </CardAncientMember>
     </div>
-  );
+
+    {/* large image of team together */}
+
+  </section>
+</div>
+);
 }

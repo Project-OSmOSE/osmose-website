@@ -1,0 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css");
+
+a:link{
+    color: rgb(250, 118, 29);
+}
+a:visited{
+    color: rgb(243, 147, 112);
+}
+a:hover{
+    color: rgb(250, 118, 29);
+}
+a:active{
+    color: red;
+}

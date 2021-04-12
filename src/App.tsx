@@ -5,8 +5,9 @@ import './App.css';
 
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
-import { People } from './pages/People';
 import { Project } from './pages/Project';
+import { Explore } from './pages/Explore';
+import { People } from './pages/People';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const App: React.FC = () => {
           </Route>
           <Route path="/project">
             <Project />
+          </Route>
+          <Route path="/explore">
+            <Explore />
           </Route>
           <Route path="/people">
             <People />

@@ -1,0 +1,32 @@
+header.PageTitle {
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* padding-right: 0; */
+    /* padding-left: 0; */
+    /* margin-right: 0; */
+    /* margin-left: 0; */
+}
+
+header.PageTitle img, 
+header.PageTitle picture {
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-height: 100%;
+}
+
+header.PageTitle div.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+header.PageTitle h1 {
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
