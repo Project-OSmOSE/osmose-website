@@ -1,14 +1,18 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css");
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"); */
 
 a:link{
-    color: rgb(250, 118, 29);
+    /* color: rgb(255, 118, 27); */
+    color: #00b6d9;
 }
 a:visited{
-    color: rgb(243, 147, 112);
+    /* color: rgb(255, 139, 61); */
+    color: #42bed6;
 }
 a:hover{
-    color: rgb(250, 118, 29);
+    /* color: rgb(255, 108, 10); */
+    color: #00d5ff;
 }
 a:active{
+    /* color: rgb(255, 102, 0); */
     color: red;
 }

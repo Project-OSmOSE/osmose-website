@@ -7,7 +7,7 @@ footer.footer {
   /* font-size: large; */
 }
 
-footer.footer > div{
+footer.footer > p{
   /* min-height: 100%; */
   height: max-content !important;
 }

@@ -7,7 +7,12 @@ import { CardAncientMember } from '../../components/CardAncientMember';
 
 import './styles.css';
 import imgBanner from '../../images/maxresdefault.jpg';
-import logo from '../../images/logo_OSmOSE_neg.png';
+import brest from '../../images/port-1338851_640.jpg';
+import enstalogo from '../../images/logo_ensta.png';
+import labsticlogo from '../../images/logo_lab-stic.png';
+import ubologo from '../../images/logo2_ubo.png';
+import imtlogo from '../../images/logo_imt.jpg';
+
 import defautPortrait from '../../images/default_profil.png'
 // import projectImg from '../../images/logo_project.png';
 
@@ -25,25 +30,27 @@ return (
 
   <section className="container">
     <Card
-    title="Osmose"
-    img={logo}
+    title="Qui sommes-nous ?"
+    img={brest}
     imgSide="left"
     imgAlt="Génial"
-    url="/people"
+    // url="/people"
     urlDesc="Lien vers la page"
     >
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Facilis sint dolor illum modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima et temporibus aliquid perferendis facilis, nihil est cumque? Odio commodi fuga quod ipsa. Earum ut labore totam inventore deserunt! Voluptate, explicabo.</p>
+      <p>
+        OSmOSE est composé d'universitaires et de chercheurs travaillant dans le domaine de l'acoustique sous-marine, de la l'observation des océans et de la protection de la biodiversité marine. Cette équipe, basée à Brest, s'est associée à des développeurs talentueux pour mettre en place des technologies d'analyse des sons océaniques.
+      </p>
     </Card>
   </section>
 
-  <div className="container">
+  <div className="container my-4">
     <p>Instituts affiliées :</p>
   </div>
   <Banner>
-    <img className="card-img" src={logo} alt="" title="" />
-    <img className="card-img" src={logo} alt="" title="" />
-    <img className="card-img" src={logo} alt="" title="" />
-    <img className="card-img" src={logo} alt="" title="" />
+    <img className="" src={enstalogo} alt="Ensta Bretagne logo" title="Ensta Bretagne logo" />
+    <img className="" src={labsticlogo} alt="Lab-Stic logo" title="Lab-Stic logo" />
+    <img className="" src={ubologo} alt="UBO logo" title="UBO logo" />
+    <img className="" src={imtlogo} alt="IMT Atlantique logo" title="IMT Atlantique logo" />
   </Banner>
 
   <section className="container">
@@ -58,7 +65,9 @@ return (
     job="Data Scientist"
     // url=""
     >
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat?</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat?
+      </p>
     </CardMember>
 
     <CardMember 

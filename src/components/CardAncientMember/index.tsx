@@ -19,7 +19,7 @@ export const CardAncientMember: React.FC<CardAncientMemberProps> = ({
   url,
   }) => {
   return (
-  <div className="card cardAncient mb-3 border-0">
+  <div className="card cardAncient my-4 border-0">
     <img className="card-img-top align-self-center" src={img} alt={imgAlt} title={imgAlt} />
 
     <div className="card-body text-center">

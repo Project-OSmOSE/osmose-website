@@ -1,16 +1,30 @@
 import React from 'react';
 import { Card } from '../../components/Card';
 import { Banner } from '../../components/Banner';
+import { PageTitle } from '../../components/PageTitle';
 
 import './styles.css';
 import logo from '../../images/logo_OSmOSE_neg.png'
+import logoifremer from '../../images/logo_ifremer.png'
+import logoofb from '../../images/logo_ofb.png'
+import logoisblue from '../../images/logo_isblue3.png'
+import logothales from '../../images/logo_thales2.png'
 import projectImg from '../../images/logo_project.png';
+import imgBanner from '../../images/maxresdefault.jpg';
 
 export const Home: React.FC = () => {
   return (
 <div className="home">
 
-  <img src={logo} alt="OSmOSE logo: Open Science meets Ocean Sound Explorers" />
+  {/* <img src={logo} alt="OSmOSE logo: Open Science meets Ocean Sound Explorers" /> */}
+
+  <PageTitle 
+  title="OSmOSE"
+  img={imgBanner}
+  imgAlt="People Banner"
+  // imgSet=""
+  >
+  </PageTitle>
 
     <section className="container">
       <Card 
@@ -45,13 +59,13 @@ export const Home: React.FC = () => {
     </section>
 
   <div className="container">
-    <p>Nos supporters :</p>
+    <p>Our supports and funders:</p>
   </div>
   <Banner>
-    <img className="card-img" src={logo} alt="" title="" />
-    <img className="card-img" src={logo} alt="" title="" />
-    <img className="card-img" src={logo} alt="" title="" />
-    <img className="card-img" src={logo} alt="" title="" />
+    <img className="" src={logoifremer} alt="Ifremer logo" title="Ifremer logo" />
+    <img className="" src={logoofb} alt="AFB logo" title="AFB logo" />
+    <img className="" src={logoisblue} alt="ISblue logo" title="ISblue logo" />
+    <img className="" src={logothales} alt="Thales Underwater systems logo" title="Thales Underwater systems logo" />
   </Banner>
 </div>
 );

@@ -26,7 +26,7 @@ export const Card: React.FC<CardProps> = ({
   return (
   <div className="container-fluid">
   {title ? <h2>{title}</h2> : null}
-  <div className="card genericCard mb-3 border-0">
+  <div className="card genericCard my-3 border-0">
     <div className="row no-gutters">
 
       {img && imgSide === 'left' ? <div className="col-md-4 d-flex align-items-center justify-content-center">
