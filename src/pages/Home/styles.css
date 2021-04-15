@@ -1,3 +1,15 @@
 /* div.home{
 
 } */
+
+div.home h1{
+    font-size: 4rem;
+    text-align: left;
+}
+
+div.home h1 span{
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 1rem;
+}

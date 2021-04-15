@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-export interface CardAncientMemberProps {
+export interface CardMemberTextlessProps {
   img?: string;
   imgAlt?: string;
   name?: string;
@@ -11,7 +11,7 @@ export interface CardAncientMemberProps {
   url?: string;
 }
 
-export const CardAncientMember: React.FC<CardAncientMemberProps> = ({
+export const CardMemberTextless: React.FC<CardMemberTextlessProps> = ({
   img, // images must be squares
   imgAlt = '',
   name,

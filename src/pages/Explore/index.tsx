@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { PageTitle } from '../../components/PageTitle';
+import { WorldMap } from '../../components/WorldMap';
 import { TreeList } from '../../components/TreeList';
 
 import './styles.css';
@@ -10,12 +11,29 @@ export const Explore: React.FC = () => {
   return (
 <div className="explore">
 
-  <PageTitle title="Explore" img={imgBanner} imgAlt="Explore Banner" imgSet="">
+  <PageTitle
+  img={imgBanner}
+  imgAlt="Explore Banner"
+  // imgSet=""
+  >
+    <h1 className="align-self-center">
+      Explore
+    </h1>
   </PageTitle>
 
   <div className="container">
+    <h2>Datasets</h2>
+  </div>
 
-    <h2>Ontologie</h2>
+  <div className="container-fluid">
+    <WorldMap>
+
+    </WorldMap>
+  </div>
+
+  <section className="container">
+
+    <h2>Ontology</h2>
 
     <TreeList
     title="Anthropo"
@@ -31,7 +49,7 @@ export const Explore: React.FC = () => {
     titlelink="/explore"
     >
       <ul>
-        <li> <Link to="/explore">Baleine bleue</Link> </li>
+        <li><Link to="/explore">Baleine bleue</Link> </li>
         <li><Link to="/explore">Baleine à bosse</Link> </li>
         <li><Link to="/explore">Orque</Link> </li>
         <li><Link to="/explore">Dauphin</Link> </li>
@@ -49,7 +67,7 @@ export const Explore: React.FC = () => {
       </ul>
     </TreeList>
 
-  </div>
+  </section>
 </div>
 );
 }

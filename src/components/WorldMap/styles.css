@@ -1,0 +1,26 @@
+/* div.worldmap {
+
+} */
+
+div.worldmap div.map {
+    min-height: 30vh;
+    height: 50vw;
+    max-height: 50vh;
+    background-color: rgb(224, 237, 241);
+}
+
+div.worldmap div.infos {
+
+}
+
+div.worldmap div.list div {
+    height: 25vh;
+    width: 40vw;
+    background-color: rgb(224, 237, 241);
+}
+
+div.worldmap div.metadata div {
+    height: 25vh;
+    width: 40vw;
+    background-color: rgb(224, 237, 241);
+}

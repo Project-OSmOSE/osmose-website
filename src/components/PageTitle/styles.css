@@ -1,4 +1,4 @@
-header.PageTitle {
+header.pagetitle {
     height: 30vh;
     position: relative;
     overflow: hidden;
@@ -9,14 +9,14 @@ header.PageTitle {
     /* margin-left: 0; */
 }
 
-header.PageTitle img, 
-header.PageTitle picture {
+header.pagetitle img, 
+header.pagetitle picture {
     -o-object-fit: cover;
     object-fit: cover;
     min-height: 100%;
 }
 
-header.PageTitle div.overlay {
+header.pagetitle div.overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -24,9 +24,11 @@ header.PageTitle div.overlay {
     left: 0;
 }
 
-header.PageTitle h1 {
+header.pagetitle h1 {
     text-align: center;
     letter-spacing: 1rem;
     text-transform: uppercase;
     color: white;
+    -ms-flex-item-align: center;
+    align-self: center;
 }

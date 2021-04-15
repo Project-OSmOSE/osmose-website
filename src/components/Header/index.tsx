@@ -19,19 +19,22 @@ return (
       <span className="navbar-toggler-icon"></span>
     </button>
     <div id="navbar1" className="collapse navbar-collapse justify-content-end">
-      <ul className="navbar-nav">
-        <li className="mx-5 mx-md-4 nav-item">
+      <ul className="navbar-nav text-center">
+        {/* <li className="mx-5 mx-md-4 nav-item">
           <Link to="/" className="nav-link navigation-link">Accueil</Link>
+        </li> */}
+        <li className="mx-5 mx-md-4 nav-item">
+          <Link to="/project" className="nav-link navigation-link">Project</Link>
+        </li>
+        <li className="mx-5 mx-md-4 nav-item d-none pipe">
+          <span className="nav-link navigation-link">|</span>
         </li>
         <li className="mx-5 mx-md-4 nav-item">
-          <Link to="/project" className="nav-link navigation-link">Projet</Link>
+          <Link to="/explore" className="nav-link navigation-link">Explore</Link>
         </li>
-        <li className="mx-5 mx-md-4 nav-item">
-          <Link to="/explore" className="nav-link navigation-link">Explorer</Link>
-        </li>
-        <li className="mx-5 mx-md-4 nav-item">
+        {/* <li className="mx-5 mx-md-4 nav-item">
           <Link to="/people" className="nav-link navigation-link">Equipe</Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   </nav>

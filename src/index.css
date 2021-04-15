@@ -18,9 +18,8 @@ code {
 h2{
   letter-spacing: 5px;
   text-transform: uppercase;
-  /* color: #001531 !important; */
   color: #002d80 !important;
-  /* font-weight: 600; */
+  font-weight: 400;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   margin-top: 1.5rem;
   margin-bottom: 1rem;
@@ -29,6 +28,7 @@ h2{
 
 h3{
   letter-spacing: 3px;
+  font-weight: 400;
   /* color: #2e3141; */
   margin: 1rem 0;
   padding: 0.5rem 0;

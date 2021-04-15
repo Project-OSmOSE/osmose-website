@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -41,7 +41,7 @@ export const CardMember: React.FC<CardMemberProps> = ({
           </p> : null}
           <p className="card-text">{children}</p>
           {url ? <p className="card-text">
-            <Link className="card-link" to={url}>Page personnelle</Link>
+            <a className="card-link" href={url}>Page personnelle</a>
           </p> : null}
         </div>
       </div>

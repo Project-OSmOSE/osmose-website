@@ -2,7 +2,7 @@
 
 } */
 
-div.project div.banner {
+div.project div.banner:first-of-type {
     background-color: #1890cc;
     /* background-color: #00b6d9; */
 }

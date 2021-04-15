@@ -48,3 +48,9 @@ margin-top: 0;
 margin-bottom: 0;
 text-align: center;
 }
+
+@media screen and (min-width: 768px){
+  nav li.pipe{
+    display: inline-block !important;
+  }
+}
