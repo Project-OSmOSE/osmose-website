@@ -24,7 +24,7 @@ export const Project: React.FC = () => {
   // imgSet=""
   >
     <h1>
-      Projet
+      Présentation
     </h1>
   </PageTitle>
 
@@ -57,7 +57,7 @@ export const Project: React.FC = () => {
     // urlDesc=""
     >
       <p>
-        Nous nous attachons à développer des solutions facilement réutilisables en suivant les <a href="https://www.go-fair.org/fair-principles/"> principes FAIR</a>. <br/>
+        Nous nous attachons à développer des solutions facilement réutilisables en suivant les <a href="https://www.go-fair.org/fair-principles/">principes FAIR</a>. <br/>
         Dans cette optique nous mettons à disposition en open source toute notre technologie afin de permettre à tous d'en profiter.
       </p>
     </Card>

@@ -5,19 +5,20 @@ div.treelist {
 
 div.treelist h3 {
     margin: 0;
+    font-size: 1.5rem;
 }
 
 div.treelist h3 > a {
     color: #002d80;
 }
 
-div.treelist ul {
+div.treelist > ul {
     margin-left: 10px;
     border-left: 3px solid #002d80 ;
     padding-left: 37px;
 }
 
-div.treelist ul > li{
+div.treelist > ul > li{
     position: relative;
     top: 0.8rem;
     padding-left: 20px;
@@ -26,7 +27,7 @@ div.treelist ul > li{
     font-size: larger;
 }
 
-div.treelist ul > li::after{
+div.treelist > ul > li::after{
     content: '';
     width: 40px;
     height: 0;
@@ -36,6 +37,6 @@ div.treelist ul > li::after{
     border-top: solid 3px #002d80;
 }
 
-div.treelist ul > li > a{
+div.treelist > ul > li > a{
     color: black;
 }

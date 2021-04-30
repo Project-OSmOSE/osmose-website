@@ -17,7 +17,7 @@ import defautPortrait from '../../images/default_profil.png'
 // import projectImg from '../../images/logo_project.png';
 
 export const People: React.FC = () => {
-return (
+  return (
 <div className="people">
 
   <PageTitle
@@ -62,14 +62,16 @@ return (
 
   <section className="container">
 
-    <h2>Core team</h2>
+    <h2>ODE</h2>
+
+    <p>The ODE (Ocean Data Explorer) team develop all the computer technology used to manage and process data.</p>
 
     <CardMember 
-    name="Henri BEAUCOUR"
+    name="Joseph Allemandou"
     img={defautPortrait}
     imgSide="left"
-    imgAlt="Portrait de "
-    job="Data Scientist"
+    imgAlt="Joseph’s portrait."
+    // job="Data Scientist"
     url="https://www.google.com"
     >
       <p>
@@ -78,11 +80,11 @@ return (
     </CardMember>
 
     <CardMember 
-    name="Henri BEAUCOUR"
+    name="Alexandre Degurse"
     img={defautPortrait}
     imgSide="right"
-    imgAlt="Portrait de "
-    job="Data Scientist"
+    imgAlt="Alexandre’s portrait."
+    // job="Data Scientist"
     url="https://www.google.com"
     >
       <p>
@@ -91,11 +93,11 @@ return (
     </CardMember>
 
     <CardMember
-    name="Henri BEAUCOUR"
+    name="Erwan Keribin"
     img={defautPortrait}
     imgSide="left"
-    imgAlt="Portrait de "
-    job="Data Scientist"
+    imgAlt="Erwan’s portrait."
+    // job="Data Scientist"
     url="https://www.google.com"
     >
       <p>
@@ -104,17 +106,163 @@ return (
     </CardMember>
 
     <CardMember
-    name="Henri BEAUCOUR"
+    name="Romain Vovard"
     img={defautPortrait}
     imgSide="right"
-    imgAlt="Portrait de "
-    job="Data Scientist"
+    imgAlt="Romain’s portrait"
+    // job="Data Scientist"
     url="https://www.google.com"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
       </p>
     </CardMember>
+  </section>
+
+  <section className="container">
+
+    <h2>AIe</h2>
+
+    <p>AIe develop all the computer technology used to make computers learn and recognize ocean sounds.</p>
+
+    <CardMember 
+    name="Dorian Cazau"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Dorian’s portrait."
+    job="Data Scientist"
+    // url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Paul Nguyen Hong Duc"
+    img={defautPortrait}
+    imgSide="right"
+    imgAlt="Paul’s portrait"
+    // job="Data Scientist"
+    url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Richard Dréo"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Richard’s portrait."
+    // job="Data Scientist"
+    // url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate
+      </p>
+    </CardMember>
+
+  </section>
+
+  <section className="container">
+
+    <h2>Underwater Passive Acoustics sciences</h2>
+
+    <p>Ocean science specialists.</p>
+
+    <CardMember 
+    name="Julie Béesau"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Julie’s portrait."
+    // job="Data Scientist"
+    // url="https://www.google.com"
+    >
+      <p className="quote">
+      Je suis ingénieur d’étude au sein de l’ENSTA Bretagne depuis 2017 et je travaille dans l’équipe de bioacoustique sur le suivi des populations de mammifères marins par acoustique passive. L’acoustique passive est, pour moi, un outil pour l’étude et la conservation des mammifères marins et plus précisément des cétacés le long des côtes françaises. Au sein de l’équipe OSMOSE, je travaille du côté des scientifiques en tant qu’utilisatrice des outils développés par les informaticiens notamment sur la plateforme d’annotation en ligne APLOSE ainsi qu’à l’analyse des résultats obtenus et à leurs valorisations scientifiques.
+      </p>
+    </CardMember>
+
+    <CardMember 
+    name="Flore Samaran"
+    img={defautPortrait}
+    imgSide="right"
+    imgAlt="Flore’s portrait."
+    // job="Data Scientist"
+    // url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Maëlle Torterotot"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Maëlle’s portrait."
+    // job="Data Scientist"
+    // url="https://www.google.com"
+    >
+      <p>
+      Je suis ingénieur de recherche à l’ENSTA Bretagne depuis 2020, où j’ai précédemment effectué ma thèse de doctorat en co-encadrement avec l’Université de Bretagne Occidentale. Je travaille au sein de l’équipe bioacoustique et m’intéresse aux questions de suivi des mammifères marins par acoustique passive, de l’océan Indien aux côtes bretonnes. Je suis utilisatrice des outils développés par l’équipe OSmOSE, notamment de la plateforme d’annotation Aplose, mais aussi des notebooks de calculs de descripteurs acoustiques. J’essaie en parallèle de m’investir dans le développement de ces outils.
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Olivier Adam"
+    img={defautPortrait}
+    imgSide="right"
+    imgAlt="Olivier’s portrait"
+    // job="Data Scientist"
+    url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Delphine Mathias"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Delphine’s portrait"
+    // job="Data Scientist"
+    url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Yann Doh"
+    img={defautPortrait}
+    imgSide="right"
+    imgAlt="Yann’s portrait"
+    // job="Data Scientist"
+    url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      </p>
+    </CardMember>
+
+    <CardMember
+    name="Gaetan Richard"
+    img={defautPortrait}
+    imgSide="left"
+    imgAlt="Gaetan’s portrait"
+    // job="Data Scientist"
+    url="https://www.google.com"
+    >
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      </p>
+    </CardMember>
+
   </section>
 
   <section className="container">
@@ -127,7 +275,7 @@ return (
         img={defautPortrait}
         imgAlt="Ma photo"
         name="Henri BEAUCOUR"
-        job="Detective"
+        job="Stagiaire"
         url="https://www.google.com"
         >
       </CardMemberTextless>

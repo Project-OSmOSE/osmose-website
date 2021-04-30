@@ -1,25 +1,30 @@
-/* div.worldmap {
+/* div.worldMap {
 
 } */
 
-div.worldmap div.map {
-    min-height: 30vh;
+/* @import url('https://unpkg.com/leaflet@1.6.0/dist/leaflet.css'); */
+
+div.worldMap div.myMap {
+    /* background-color: rgb(224, 237, 241); */
+}
+
+div.worldMap div.leaflet-container{
+    min-height: 50vh;
     height: 50vw;
-    max-height: 50vh;
-    background-color: rgb(224, 237, 241);
+    max-height: 60vh;
 }
 
-div.worldmap div.infos {
+/* div.worldMap div.infos {
 
-}
+} */
 
-div.worldmap div.list div {
+div.worldMap div.list div {
     height: 25vh;
     width: 40vw;
     background-color: rgb(224, 237, 241);
 }
 
-div.worldmap div.metadata div {
+div.worldMap div.metadata div {
     height: 25vh;
     width: 40vw;
     background-color: rgb(224, 237, 241);

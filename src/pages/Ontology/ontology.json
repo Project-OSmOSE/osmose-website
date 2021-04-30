@@ -1,0 +1,76 @@
+{
+    "whale": {
+        "title": "Blue whale",
+        "description": "The blue whale is a humongous mammal.",
+        "occurences": 123,
+        "parentTag": null,
+        "childrenTag": {
+            "bluewhale": {
+                "title": "Blue whale",
+                "description": "The blue whale is a humongous mammal.",
+                "occurences": 123,
+                "parentTag": "whale",
+                "childrenTag": {
+                    "bluewhale_dcall":{
+                        "title": "Blue whale D-call",
+                        "description": "The blue whale D-call is noisy.",
+                        "occurences": 123,
+                        "parentTag": "bluewhale"
+                    }
+                }
+            },
+            "greywhale": {
+                "title": "Grey whale",
+                "description": "The grey whale is a humongous mammal.",
+                "occurences": 123,
+                "parentTag": "whale",
+                "childrenTag": null
+            },
+            "pinkwhale": {
+                "title": "Pink whale",
+                "description": "The pink whale is a pink mammal.",
+                "occurences": 123,
+                "parentTag": "whale",
+                "childrenTag": null
+            },
+            "yellowwhale": {
+                "title": "Yellow whale",
+                "description": "The Y whale is a mammal.",
+                "occurences": 123,
+                "parentTag": "whale",
+                "childrenTag": null
+            }
+        }
+    },
+    "human": {
+        "title": "Human",
+        "description": "The blue whale is a humongous mammal.",
+        "occurences": 123,
+        "parentTag": null,
+        "childrenTag": {
+            "boat": {
+                "title": "A boat",
+                "description": "Le bateau sert à naviguer.",
+                "occurences": 123,
+                "parentTag": "human",
+                "childrenTag": null
+            }
+        }
+    },
+    "geo": {
+        "wind": {
+            "title": "Wind",
+            "description": "Wind is refreshing.",
+            "occurences": 123,
+            "parentTag": "geologic",
+            "childrenTag": null
+        },
+        "rain": {
+            "title": "Rain",
+            "description": "It never rains in Brittany.",
+            "occurences": 123,
+            "parentTag": "geologic",
+            "childrenTag": null
+        }
+    }
+}

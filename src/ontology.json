@@ -1,0 +1,632 @@
+{
+    "mysticeti": {
+        "engName": "Mysticeti (baleen whale)",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["bowheadwhale", "southernrightwhale", "northatlanticrightwhale", "northpacificrightwhale", "pygmyrightwhale", "commonminkewhale", "southernminkewhale", "graywhale", "humpbackwhale", "finwhale", "bluewhale", "omuraswhale", "edenswhale", "riceswhale", "seiwhale", "brydeswhale"]
+    },
+    "bowheadwhale": {
+        "engName": "Bowhead whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "southernrightwhale": {
+        "engName": "Southern right whale",
+        "engdesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "northatlanticrightwhale": {
+        "engName": "North Atlantic right whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "northpacificrightwhale": {
+        "engName": "North Pacific right whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "pygmyrightwhale": {
+        "engName": "Pygmy right whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "commonminkewhale": {
+        "engName": "Common minke whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "southernminkewhale": {
+        "engName": "Southern minke whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "graywhale": {
+        "engName": "Gray whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "humpbackwhale": {
+        "engName": "Humpback whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "finwhale": {
+        "engName": "Fin whale",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "bluewhale": {
+        "engName": "Blue whale",
+        "engDesc": "The blue whale is a humongous mammal.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "omuraswhale": {
+        "engName": "Omura’s whale",
+        "engDesc": "The Omura’s whale is a big mammal.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "edenswhale": {
+        "engName": "Eden’s whale",
+        "engDesc": "The Eden’s whale is a big mammal.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "riceswhale": {
+        "engName": "Rice’s whale",
+        "engDesc": "The Rices’s whale is a big mammal.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "seiwhale": {
+        "engName": "Sei whale",
+        "engDesc": "The sei whale is a big mammal.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+    "brydeswhale": {
+        "engName": "Bryde’s whale",
+        "engDesc": "The Bryde’s whale is a big mammal.",
+        "image": "example.jpg",
+        "parentTag": "mysticeti",
+        "childrenTag": null
+    },
+
+
+    "delphinidae": {
+        "engName": "Delphinidae (oceanic dolphins)",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["bottlenosedolphin", "indopacificbottlenosedolphin", "narrowbeakeddolphin", "narrowbeakeddolphin", "commondolphin", "longbeakedcommondolphin", "spinnerdolphin", "clymenedolphin", "stripeddolphin", "pantropicalspotteddolphin", "atlanticspotteddolphin", "frasersdolphin", "whitebeakeddolphin", "whitesideddolphin", "pacificwhitesideddolphin", "pealesdolphin", "hourglassdolphin", "duskydolphin", "killerwhale", "shortfinnedpilotwhale", "pilotwhale", "pygmykillerwhale", "melonheadwhale", "falsekillerwhale", "rissodolphin", "commersonsdolphin", "chileandolphin", "heavisidesdolphin", "hectorsdolphin", "nothernrightwhaledolphin", "southernrightwhaledolphin"]
+    },
+    "bottlenosedolphin": {
+        "engName": "Bottlenose dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "indopacificbottlenosedolphin": {
+        "engName": "Indo Pacific bottlenose dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "narrowbeakeddolphin": {
+        "engName": "Narrow beaked dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "commondolphin": {
+        "engName": "Common dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "longbeakedcommondolphin": {
+        "engName": "Long-beaked common dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "spinnerdolphin": {
+        "engName": "Spinner dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "clymenedolphin": {
+        "engName": "Clymene dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "stripeddolphin": {
+        "engName": "Striped dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "pantropicalspotteddolphin": {
+        "engName": "Pantropical spotted dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "atlanticspotteddolphin": {
+        "engName": "Atlantic spotted dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "Frasersdolphin": {
+        "engName": "Fraser’s dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "whitebeakeddolphin": {
+        "engName": "White-beaked dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "whitesideddolphin": {
+        "engName": "White-sided dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "pacificwhitesideddolphin": {
+        "engName": "Pacific white sided dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "pealesdolphin": {
+        "engName": "Peale’s dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "hourglassdolphin": {
+        "engName": "Hourglass dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "duskydolphin": {
+        "engName": "Dusky dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "killerwhale": {
+        "engName": "Killer whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "shortfinnedpilotwhale": {
+        "engName": "Short-finned pilot whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "pilotwhale": {
+        "engName": "Pilot whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "pygmykillerwhale": {
+        "engName": "Pygmy killer whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "melonheadwhale": {
+        "engName": "Melon head whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "falsekillerwhale": {
+        "engName": "False killer whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "rissodolphin": {
+        "engName": "Risso dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "commersonsdolphin": {
+        "engName": "Commerson’s dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "chileandolphin": {
+        "engName": "Chilean dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "heavisidesdolphin": {
+        "engName": "Heaviside’s dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "hectorsdolphin": {
+        "engName": "Hector’s dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "nothernrightwhaledolphin": {
+        "engName": "Nothern right whale dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+    "southernrightwhaledolphin": {
+        "engName": "Southern right whale dolphin",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "delphinidae",
+        "childrenTag": null
+    },
+
+
+    "monodontidae": {
+        "engName": "Monodontidae",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["belugawhale", "narwhal"]
+    },
+    "belugawhale": {
+        "engName": "Beluga whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "monodontidae",
+        "childrenTag": null
+    },
+    "narwhal": {
+        "engName": "Narwhal",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "monodontidae",
+        "childrenTag": null
+    },
+
+
+    "phocoeninae": {
+        "engName": "Phocoeninae (porpoise)",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["harbourporpoise", "finlessporpoise", "spectacledporpoise", "vaquita", "dallsporpoise"]
+    },
+    "harbourporpoise": {
+        "engName": "Harbour porpoise",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "phocoeninae",
+        "childrenTag": null
+    },
+    "finlessporpoise": {
+        "engName": "Finless porpoise",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "phocoeninae",
+        "childrenTag": null
+    },
+    "spectacledporpoise": {
+        "engName": "Spectacled porpoise",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "phocoeninae",
+        "childrenTag": null
+    },
+    "vaquita": {
+        "engName": "Vaquita",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "phocoeninae",
+        "childrenTag": null
+    },
+    "dallsporpoise": {
+        "engName": "Dall’s porpoise",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "phocoeninae",
+        "childrenTag": null
+    },
+
+
+    "ziphidae": {
+        "engName": "Ziphidae (beaked whale)",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["ziphius", "arnouxsbeakedwhale", "bairdbeakedwhale", "shepherdsbeakedwhale", "tropicalbottlenosewhale", "nothernbottlenosewhale", "southernbottlenosewhale", "hectorsbeakedwhale", "truesbeakedwhale", "gervaissbeakedwhale", "sowerbysbeakedwhale", "graysbeakedwhale", "pygmybeakedwhale", "andrewsbeakedwhale", "spadetoothedwhale", "hubbsbeakedwhale", "ginkgotoothedbeakedwhale", "stejnegersbeakedwhale", "straptoothedwhale", "blainvillesbeakedwhale", "perrinsbeakedwhale"]
+    },
+    "ziphius": {
+        "engName": "Ziphius",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "arnouxsbeakedwhale": {
+        "engName": "Arnoux’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "bairdbeakedwhale": {
+        "engName": "Baird beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "shepherdsbeakedwhale": {
+        "engName": "Shepherd’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "tropicalbottlenosewhale": {
+        "engName": "Tropical bottlenose whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "nothernbottlenosewhale": {
+        "engName": "Nothern bottlenose whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "southernbottlenosewhale": {
+        "engName": "Southern bottlenose whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "hectorsbeakedwhale": {
+        "engName": "Hector’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "truesbeakedwhale": {
+        "engName": "True’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "gervaissbeakedwhale": {
+        "engName": "Gervais’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+    "sowerbysbeakedwhale": {
+        "engName": "Sowerby’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"graysbeakedwhale": {
+        "engName": "Gray’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"pygmybeakedwhale": {
+        "engName": "Pygmy beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"andrewsbeakedwhale": {
+        "engName": "Andrew’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"spadetoothedwhale": {
+        "engName": "Spade-toothed whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"hubbsbeakedwhale": {
+        "engName": "Hubbs’ beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"ginkgotoothedbeakedwhale": {
+        "engName": "Ginkgo-toothed beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"stejnegersbeakedwhale": {
+        "engName": "Stejneger’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"straptoothedwhale": {
+        "engName": "Strap-toothed whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"blainvillesbeakedwhale": {
+        "engName": "Blainville’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+	"perrinsbeakedwhale": {
+        "engName": "Perrin’s beaked whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "ziphidae",
+        "childrenTag": null
+    },
+
+
+	"physeteroidea": {
+        "engName": "Sperm whale & kogiidae",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["spermwhale", "pygmyspermwhale", "dwarfwhale"]
+    },
+    "spermwhale": {
+        "engName": "Sperm whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "physeteroidea",
+        "childrenTag": null
+    },
+    "pygmyspermwhale": {
+        "engName": "Pygmy sperm whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "physeteroidea",
+        "childrenTag": null
+    },
+    "dwarfwhale": {
+        "engName": "Dwarf whale",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "physeteroidea",
+        "childrenTag": null
+    },
+
+
+    "human": {
+        "engName": "Human source",
+        "engDesc": "I’m human.",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag": ["boat"]
+    },
+    "boat": {
+        "engName": "A boat",
+        "engDesc": "Le bateau sert à naviguer.",
+        "image": "example.jpg",
+        "parentTag": "human",
+        "childrenTag": null
+    },
+
+
+    "nature": {
+        "engName": "Natural source",
+        "engDesc": "Description",
+        "image": "example.jpg",
+        "parentTag": "root",
+        "childrenTag":  ["rain", "wind"]
+    },
+    "rain": {
+        "engName": "Rain",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "nature",
+        "childrenTag": null
+    },
+    "wind": {
+        "engName": "Wind",
+        "engDesc": "Description.",
+        "image": "example.jpg",
+        "parentTag": "nature",
+        "childrenTag": null
+    }
+}

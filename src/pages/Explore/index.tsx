@@ -2,12 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { PageTitle } from '../../components/PageTitle';
 import { WorldMap } from '../../components/WorldMap';
+import { TileLayer, Marker, Popup } from 'react-leaflet';
 import { TreeList } from '../../components/TreeList';
 
 import './styles.css';
 import imgBanner from '../../images/maxresdefault.jpg';
+import jsonFile from '../../ontology.json';
 
 export const Explore: React.FC = () => {
+
+  const jsonStr = JSON.stringify(jsonFile);
+  const jsonObject = JSON.parse(jsonStr);
+  console.log('jsonObject contains : ', typeof jsonObject, jsonObject);
+
   return (
 <div className="explore">
 
@@ -17,7 +24,7 @@ export const Explore: React.FC = () => {
   // imgSet=""
   >
     <h1 className="align-self-center">
-      Explore
+      Explorateur
     </h1>
   </PageTitle>
 
@@ -27,7 +34,6 @@ export const Explore: React.FC = () => {
 
   <div className="container-fluid">
     <WorldMap>
-
     </WorldMap>
   </div>
 
@@ -36,38 +42,78 @@ export const Explore: React.FC = () => {
     <h2>Ontology</h2>
 
     <TreeList
-    title="Anthropo"
-    titlelink="/explore"
-    >
-      <ul>
-        <li><Link to="/explore">Bateau</Link> </li>
-      </ul>
-    </TreeList>
+    tag="mysticeti"
+    tagName={jsonObject.mysticeti.engName}
+    tagDesc={jsonObject.mysticeti.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.mysticeti.childrenTag}
+    />
 
     <TreeList
-    title="Cétacé"
-    titlelink="/explore"
-    >
-      <ul>
-        <li><Link to="/explore">Baleine bleue</Link> </li>
-        <li><Link to="/explore">Baleine à bosse</Link> </li>
-        <li><Link to="/explore">Orque</Link> </li>
-        <li><Link to="/explore">Dauphin</Link> </li>
-      </ul>
-    </TreeList>
+    tag="phocoeninae"
+    tagName={jsonObject.phocoeninae.engName}
+    tagDesc={jsonObject.phocoeninae.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.phocoeninae.childrenTag}
+    />
 
     <TreeList
-    title="Geo"
-    titlelink="/explore"
-    >
-      <ul>
-        <li><Link to="/explore">Vent</Link> </li>
-        <li><Link to="/explore">Pluie</Link> </li>
-        <li><Link to="/explore">Chute de glacier</Link> </li>
-      </ul>
-    </TreeList>
+    tag="delphinidae"
+    tagName={jsonObject.delphinidae.engName}
+    tagDesc={jsonObject.delphinidae.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.delphinidae.childrenTag}
+    />
+
+    <TreeList
+    tag="monodontidae"
+    tagName={jsonObject.monodontidae.engName}
+    tagDesc={jsonObject.monodontidae.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.monodontidae.childrenTag}
+    />
+
+    <TreeList
+    tag="ziphidae"
+    tagName={jsonObject.ziphidae.engName}
+    tagDesc={jsonObject.ziphidae.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.ziphidae.childrenTag}
+    />
+
+    <TreeList
+    tag="physeteroidea"
+    tagName={jsonObject.physeteroidea.engName}
+    tagDesc={jsonObject.physeteroidea.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.physeteroidea.childrenTag}
+    />
+
+    <TreeList
+    tag="human"
+    tagName={jsonObject.human.engName}
+    tagDesc={jsonObject.human.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.human.childrenTag}
+    />
+
+    <TreeList
+    tag="nature"
+    tagName={jsonObject.nature.engName}
+    tagDesc={jsonObject.nature.engDesc}
+    // tagImage=""
+    // tagParent=""
+    tagChildren={jsonObject.nature.childrenTag}
+    />
 
   </section>
 </div>
-);
+  );
 }
