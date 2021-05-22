@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import { JsxElement, JsxExpression, ObjectLiteralElementLike } from 'typescript';
+import { JsxChild, JsxElement, JsxEmit, JsxTagNameExpression } from 'typescript';
 
 import './styles.css';
 
@@ -65,36 +65,55 @@ export const WorldMap: React.FC<WorldMapProps> = ({
     // let lat = exampleSet2[0].coord[0];
     // let long = exampleSet2[0].coord[1];
     return (
+      // envoyer dans .leaflet-marker-pane appendchild
     <Marker 
     position={[aDataset.coord[0], aDataset.coord[1]]}
     // position={[4.0, 40.0]}
     >
-        <Popup>
-          {aDataset.name}
-        </Popup>
-      </Marker>
+      <Popup>
+        {aDataset.name}
+      </Popup>
+    </Marker>
     );
   }
+  var target = document.getElementsByClassName('leaflet-marker-pane')[0];
 
     function addAllMarkers(){
-      let markers;
+      // let markers;
       for (let i = 0; i < exampleSet2.length; i++) {
-        markers =+ addMarker(exampleSet2[i]);
+        addMarker(exampleSet2[i]);
+        // addMarker(exampleSet2[i]);
       }
-      return markers;
+      // return markers;
     }
 
-  // function addMarkers() {
-  //   let newMarker;
-  //   for (let i = 0; i < datasetList.length; i++) {
-  //     newMarker = datasetList[i];
-  //   }
-  // }
+    // Fonction callback ?
+  function addMarkers() {
+    let newMarker;
+    let markers: JSX.Element = <> </>;
+    for (let i = 0; i < exampleSet2.length; i++) {
+      // newMarker = datasetList[i];
+      newMarker =
+        <Marker position={[exampleSet2[i].coord[0], exampleSet2[i].coord[1]]} >
+          <Popup>
+            {exampleSet2[i].name}
+          </Popup>
+        </Marker>;
+      console.log('newmarker vaut :', typeof newMarker, newMarker);
+      // markers =+ newMarker;
+      // target.appendChild(newMarker);
+      // target.innerHTML =+ newMarker;
+      // target.insertAdjacentElement("beforeend", newMarker)
+    }
+    // return(
+    //   markers
+    // );
+  }
 
   return (
     <div className="worldMap">
 
-      <div className="container">
+      <div className="container-fluid">
         <h3>Localisation</h3>
       </div>
 
@@ -124,8 +143,11 @@ export const WorldMap: React.FC<WorldMapProps> = ({
               Description here.
             </Popup>
           </Marker> */}
+
           {/* {addMarker()} */}
-          {addMarker(exampleSet2[1])}
+          {/* {addAllMarkers()} */}
+          {/* {addMarkers()} */}
+          {/* {addMarker(exampleSet2[0])} */}
           {/* {addAllMarkers()} */}
 
         </MapContainer>
@@ -134,19 +156,19 @@ export const WorldMap: React.FC<WorldMapProps> = ({
 
       <div className="container-fluid my-3 d-flex justify-content-between align-items-stretch infos">
 
-        <div id="list" className="list">
+        <div id="list">
           <h3>List</h3>
           <div>
           {/* List of datasets */}
           </div>
         </div>
 
-        <div className="metadata">
+        {/* <div id="metadata">
           <h3>MetaData</h3>
           <div>
-            {/* Metadatas */}
+            
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

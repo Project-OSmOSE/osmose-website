@@ -22,7 +22,7 @@ export const CardMember: React.FC<CardMemberProps> = ({
   children
   }) => {
   return (
-  <div className="card cardMember my-4 border-0">
+  <div className="card cardMember my-5 border-0">
     <div className="row no-gutters">
 
       {img && imgSide === 'left' ? <div className="col-sm-3 col-md-4 d-flex align-items-center justify-content-center">

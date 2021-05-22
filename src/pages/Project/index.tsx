@@ -4,22 +4,26 @@ import { Card } from '../../components/Card';
 import { Banner } from '../../components/Banner';
 
 import './styles.css';
-import imgBanner from '../../images/maxresdefault.jpg';
+// import imgBanner from '../../images/maxresdefault.jpg';
+// import imgProject from '../../images/pexels-kammeran-gonzalezkeola-7082101.jpg';
+// import imgProject from '../../images/pexels-daniel-torobekov-5901263_2;1.jpg';
+import imgProject from '../../images/pexels-elianne-dipp-4666753_1280_thin.jpg';
+
 import mission from '../../images/dolphins-918752_640.jpg';
 import valeur from '../../images/open_source.png';
 import techno from '../../images/pexels-panumas-nikhomkhai-1148820.jpg';
 import particip from '../../images/pexels-william-fortunato-6140678.jpg';
-import logoifremer from '../../images/logo_ifremer.png'
-import logoofb from '../../images/logo_ofb.png'
-import logoisblue from '../../images/logo_isblue3.png'
-import logothales from '../../images/logo_thales2.png'
+import logoifremer from '../../images/logo_ifremer.png';
+import logoofb from '../../images/logo_ofb.png';
+import logoisblue from '../../images/logo_isblue3.png';
+import logothales from '../../images/logo_thales2.png';
 
 export const Project: React.FC = () => {
   return (
 <div className="project">
 
   <PageTitle
-  img={imgBanner}
+  img={imgProject}
   imgAlt="Project Banner"
   // imgSet=""
   >
@@ -28,7 +32,7 @@ export const Project: React.FC = () => {
     </h1>
   </PageTitle>
 
-  <section className="container">
+  <section className="container my-5">
     <Card
     title="Notre mission"
     img={mission}
@@ -46,7 +50,7 @@ export const Project: React.FC = () => {
     </Card>
   </section>
 
-  <section className="container">
+  <section className="container my-5">
     <Card
     title="Nos valeurs"
     img={valeur}
@@ -65,21 +69,21 @@ export const Project: React.FC = () => {
 
   <Banner>
     <p>
-      <span className="">12 millions</span> <br/>
+      <span className="spring">12 millions</span> <br/>
       de gros chiffres <br/>
       par minute
     </p>
     <p>
-      <span className="">12.456</span> <br/>
+      <span className="spring">12.456</span> <br/>
       au bas mot !
     </p>
     <p>
-      <span className="">3 trillions</span> <br/>
+      <span className="spring">3 trillions</span> <br/>
       C'est énorme !
     </p>
   </Banner>
 
-  <section className="container">
+  <section className="container my-5">
     <Card
     title="Technologie"
     img={techno}
@@ -95,7 +99,7 @@ export const Project: React.FC = () => {
     </Card>
   </section>
 
-  <section className="container">
+  <section className="container my-5">
     <Card
     title="Collaborer"
     img={particip}
@@ -111,9 +115,10 @@ export const Project: React.FC = () => {
     </Card>
   </section>
 
-  <div className="container">
+  <div className="container mt-5">
     <p className="lead">Supports and funders :</p>
   </div>
+
   <Banner>
     <img className="" src={logoifremer} alt="Ifremer logo" title="Ifremer logo" />
     <img className="" src={logoofb} alt="AFB logo" title="AFB logo" />

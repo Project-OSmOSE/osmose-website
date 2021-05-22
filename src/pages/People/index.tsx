@@ -6,12 +6,15 @@ import { CardMember } from '../../components/CardMember';
 import { CardMemberTextless } from '../../components/CardMemberTextless';
 
 import './styles.css';
-import imgBanner from '../../images/maxresdefault.jpg';
+// import imgBanner from '../../images/maxresdefault.jpg';
+// import imgPeople from '../../images/pexels-jeremy-bishop-2397610_1280_thin.jpg';
+import imgPeople from '../../images/pexels-daniel-torobekov-5901263_1280_thin.jpg';
+
 import brest from '../../images/port-1338851_640.jpg';
 import enstalogo from '../../images/logo_ensta.png';
 import labsticlogo from '../../images/logo_lab-stic.png';
 import ubologo from '../../images/logo2_ubo.png';
-import imtlogo from '../../images/logo_imt.jpg';
+// import imtlogo from '../../images/logo_imt.jpg';
 
 import defautPortrait from '../../images/default_profil.png'
 // import projectImg from '../../images/logo_project.png';
@@ -21,7 +24,7 @@ export const People: React.FC = () => {
 <div className="people">
 
   <PageTitle
-  img={imgBanner}
+  img={imgPeople}
   imgAlt="People Banner"
   // imgSet=""
   >
@@ -30,7 +33,7 @@ export const People: React.FC = () => {
     </h1>
   </PageTitle>
 
-  <section className="container">
+  <section className="container my-5">
     <Card
     title="Qui sommes-nous ?"
     img={brest}
@@ -51,16 +54,17 @@ export const People: React.FC = () => {
   </section>
 
   <div className="container mt-5">
-    <p>Instituts affiliées :</p>
+    <p className="lead">Instituts affiliées :</p>
   </div>
+
   <Banner>
     <img className="" src={enstalogo} alt="Ensta Bretagne logo" title="Ensta Bretagne logo" />
     <img className="" src={labsticlogo} alt="Lab-Stic logo" title="Lab-Stic logo" />
     <img className="" src={ubologo} alt="UBO logo" title="UBO logo" />
-    <img className="" src={imtlogo} alt="IMT Atlantique logo" title="IMT Atlantique logo" />
+    {/* <img className="" src={imtlogo} alt="IMT Atlantique logo" title="IMT Atlantique logo" /> */}
   </Banner>
 
-  <section className="container">
+  <section className="container my-5">
 
     <h2>ODE</h2>
 
@@ -119,7 +123,7 @@ export const People: React.FC = () => {
     </CardMember>
   </section>
 
-  <section className="container">
+  <section className="container my-5">
 
     <h2>AIe</h2>
 
@@ -166,7 +170,7 @@ export const People: React.FC = () => {
 
   </section>
 
-  <section className="container">
+  <section className="container my-5">
 
     <h2>Underwater Passive Acoustics sciences</h2>
 
@@ -265,7 +269,7 @@ export const People: React.FC = () => {
 
   </section>
 
-  <section className="container">
+  <section className="container my-5">
 
     <h2>Ancient members</h2>
     <p>Remerciements.</p>

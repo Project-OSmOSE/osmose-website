@@ -1,6 +1,11 @@
 div.treelist {
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /* width: 40%; */
+}
+
+div.treelist.nodisplay{
+    display: none;
 }
 
 div.treelist h3 {
@@ -10,6 +15,25 @@ div.treelist h3 {
 
 div.treelist h3 > a {
     color: #002d80;
+}
+
+div.treelist img.illustration{
+    /* min-width: none; */
+    max-width: 80%;
+    width: 350px;
+    float: center;
+    display: block;
+    margin: 1rem auto;
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+    div.treelist img.illustration{
+        /* max-width: 80%; */
+        width: 30%;
+        float: right;
+        margin: 1rem;
+    }
 }
 
 div.treelist > ul {

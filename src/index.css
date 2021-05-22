@@ -1,6 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap'); */
+
+html{
+
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: 'Exo 2', sans-serif; */
+  font-family: 'Exo 2', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #2e3141; */
@@ -8,6 +15,12 @@ body {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
+  margin: 0;
+  /* min-height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0; */
 }
 
 code {
@@ -16,9 +29,10 @@ code {
 }
 
 h2{
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  color: #002d80 !important;
+  /* color: #003c80 !important; */
+  color: #1a60af !important;
   font-weight: 400;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   margin-top: 1.5rem;
@@ -27,11 +41,28 @@ h2{
 }
 
 h3{
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: 400;
   /* color: #2e3141; */
   margin: 1rem 0;
   padding: 0.5rem 0;
+}
+
+a:link{
+  /* color: rgb(255, 118, 27); */
+  color: #00b6d9;
+}
+a:visited{
+  /* color: rgb(255, 139, 61); */
+  color: #42bed6;
+}
+a:hover{
+  /* color: rgb(255, 108, 10); */
+  color: #00d5ff;
+}
+a:active{
+  /* color: rgb(255, 102, 0); */
+  color: orangered;
 }
 
 .card{

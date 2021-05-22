@@ -9,11 +9,28 @@ header.pagetitle {
     /* margin-left: 0; */
 }
 
+/* img of 1920x446 px 4:30 */
 header.pagetitle img, 
 header.pagetitle picture {
     -o-object-fit: cover;
     object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+
+    /* for images of x px height */
+    /* position: relative;
+    top: -3rem;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+
+    /* margin: 1rem 0; */
+    /* padding: -3rem 0; */
+    /* viewport-fit: cover; */
     min-height: 100%;
+    /* max-width: 100%; */
+    width: 100%;
+    /* margin: calc(-2rem) 0; */
 }
 
 header.pagetitle div.overlay {
@@ -22,6 +39,9 @@ header.pagetitle div.overlay {
     right: 0;
     bottom: 0;
     left: 0;
+    /* margin: calc(-10vh) 0; */
+    /* vertical-align: middle; */
+
 }
 
 header.pagetitle div.overlay h1 {

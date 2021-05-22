@@ -19,8 +19,9 @@ export const PageTitle: React.FC<PageTitleProps> = ({
 }) => {
   return (
     <header className="pagetitle mb-5">
-      <img className="card-img-top" alt={imgAlt}  title={imgAlt} src={img}
+      <img className="" alt={imgAlt}  title={imgAlt} src={img}
       srcSet={imgSet}
+      // card-img-top
       // srcset="imagePath_400.webp 400w, imagePath_640.webp 640w"
       />
       <div className="overlay d-flex justify-content-center">
