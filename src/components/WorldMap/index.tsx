@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import { JsxChild, JsxElement, JsxEmit, JsxTagNameExpression } from 'typescript';
+// import { JsxChild, JsxElement, JsxEmit, JsxTagNameExpression } from 'typescript';
 
 import './styles.css';
 
@@ -35,80 +35,80 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   // metaData,
   // children
 }) => {
-  var exampleSet2 = [
-    {
-      name: 'dataset 1',
-      coord: [72.12, -53.13],
-      time: 12
-    },
-    {
-      name: 'dataset 2',
-      coord: [2.12, 5.13],
-      time: 12
-    },
-    {
-      name: 'dataset 3',
-      coord: [-32.12, 113.3],
-      time: 12
-    }
-  ];
+  // var exampleSet2 = [
+  //   {
+  //     name: 'dataset 1',
+  //     coord: [72.12, -53.13],
+  //     time: 12
+  //   },
+  //   {
+  //     name: 'dataset 2',
+  //     coord: [2.12, 5.13],
+  //     time: 12
+  //   },
+  //   {
+  //     name: 'dataset 3',
+  //     coord: [-32.12, 113.3],
+  //     time: 12
+  //   }
+  // ];
 
 // addMarker(exampleSet2[1]);
 
-  interface datasetInterface {
-    name: string,
-    coord: Array<any>,
-    time: number
-  }
+  // interface datasetInterface {
+  //   name: string,
+  //   coord: Array<any>,
+  //   time: number
+  // }
 
-  function addMarker(aDataset: datasetInterface) { // aDataset: datasetInterface // exampleSet2[1]
-    // let lat = exampleSet2[0].coord[0];
-    // let long = exampleSet2[0].coord[1];
-    return (
-      // envoyer dans .leaflet-marker-pane appendchild
-    <Marker 
-    position={[aDataset.coord[0], aDataset.coord[1]]}
-    // position={[4.0, 40.0]}
-    >
-      <Popup>
-        {aDataset.name}
-      </Popup>
-    </Marker>
-    );
-  }
-  var target = document.getElementsByClassName('leaflet-marker-pane')[0];
+  // function addMarker(aDataset: datasetInterface) { // aDataset: datasetInterface // exampleSet2[1]
+  //   // let lat = exampleSet2[0].coord[0];
+  //   // let long = exampleSet2[0].coord[1];
+  //   return (
+  //     // envoyer dans .leaflet-marker-pane appendchild
+  //   <Marker 
+  //   position={[aDataset.coord[0], aDataset.coord[1]]}
+  //   // position={[4.0, 40.0]}
+  //   >
+  //     <Popup>
+  //       {aDataset.name}
+  //     </Popup>
+  //   </Marker>
+  //   );
+  // }
+  // var target = document.getElementsByClassName('leaflet-marker-pane')[0];
 
-    function addAllMarkers(){
-      // let markers;
-      for (let i = 0; i < exampleSet2.length; i++) {
-        addMarker(exampleSet2[i]);
-        // addMarker(exampleSet2[i]);
-      }
-      // return markers;
-    }
+    // function addAllMarkers(){
+    //   // let markers;
+    //   for (let i = 0; i < exampleSet2.length; i++) {
+    //     addMarker(exampleSet2[i]);
+    //     // addMarker(exampleSet2[i]);
+    //   }
+    //   // return markers;
+    // }
 
     // Fonction callback ?
-  function addMarkers() {
-    let newMarker;
-    let markers: JSX.Element = <> </>;
-    for (let i = 0; i < exampleSet2.length; i++) {
-      // newMarker = datasetList[i];
-      newMarker =
-        <Marker position={[exampleSet2[i].coord[0], exampleSet2[i].coord[1]]} >
-          <Popup>
-            {exampleSet2[i].name}
-          </Popup>
-        </Marker>;
-      console.log('newmarker vaut :', typeof newMarker, newMarker);
-      // markers =+ newMarker;
-      // target.appendChild(newMarker);
-      // target.innerHTML =+ newMarker;
-      // target.insertAdjacentElement("beforeend", newMarker)
-    }
-    // return(
-    //   markers
-    // );
-  }
+  // function addMarkers() {
+  //   let newMarker;
+  //   // let markers: JSX.Element = <> </>;
+  //   for (let i = 0; i < exampleSet2.length; i++) {
+  //     // newMarker = datasetList[i];
+  //     newMarker =
+  //       <Marker position={[exampleSet2[i].coord[0], exampleSet2[i].coord[1]]} >
+  //         <Popup>
+  //           {exampleSet2[i].name}
+  //         </Popup>
+  //       </Marker>;
+  //     console.log('newmarker vaut :', typeof newMarker, newMarker);
+  //     // markers =+ newMarker;
+  //     // target.appendChild(newMarker);
+  //     // target.innerHTML =+ newMarker;
+  //     // target.insertAdjacentElement("beforeend", newMarker)
+  //   }
+  //   // return(
+  //   //   markers
+  //   // );
+  // }
 
   return (
     <div className="worldMap">
