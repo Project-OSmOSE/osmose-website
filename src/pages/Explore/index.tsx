@@ -83,12 +83,6 @@ export const Explore: React.FC = () => {
         <TreeList
         tag="phocoeninae"
         titleLevel="h3"
-        // image="no"
-        // tagName={jsonObject.phocoeninae.engName}
-        // tagDesc={jsonObject.phocoeninae.engDesc}
-        // // tagImage=""
-        // // tagParent=""
-        // tagChildren={jsonObject.phocoeninae.childrenTag}
         />
 
         <TreeList

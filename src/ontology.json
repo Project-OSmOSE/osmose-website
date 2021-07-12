@@ -1,7 +1,7 @@
 {
     "mysticeti": {
         "engName": "Mysticeti (baleen whale)",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 75,
         "parentTag": "root",
@@ -9,7 +9,7 @@
     },
     "bowheadwhale": {
         "engName": "Bowhead whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "Balaena_mysticetus_NOAA.jpg",
         "occurrence": 0,
         "parentTag": "mysticeti",
@@ -17,7 +17,7 @@
     },
     "southernrightwhale": {
         "engName": "Southern right whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "Eubalaena_australis3_flipped.jpg",
         "occurrence": 0,
         "parentTag": "mysticeti",
@@ -139,7 +139,7 @@
 
     "delphinidae": {
         "engName": "Delphinidae (oceanic dolphin)",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 12,
         "parentTag": "root",
@@ -147,7 +147,7 @@
     },
     "bottlenosedolphin": {
         "engName": "Bottlenose dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -155,7 +155,7 @@
     },
     "indopacificbottlenosedolphin": {
         "engName": "Indo Pacific bottlenose dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -163,7 +163,7 @@
     },
     "narrowbeakeddolphin": {
         "engName": "Narrow beaked dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -171,7 +171,7 @@
     },
     "commondolphin": {
         "engName": "Common dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 34,
         "parentTag": "delphinidae",
@@ -179,7 +179,7 @@
     },
     "longbeakedcommondolphin": {
         "engName": "Long-beaked common dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -187,7 +187,7 @@
     },
     "spinnerdolphin": {
         "engName": "Spinner dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -195,7 +195,7 @@
     },
     "clymenedolphin": {
         "engName": "Clymene dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -203,7 +203,7 @@
     },
     "stripeddolphin": {
         "engName": "Striped dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -211,7 +211,7 @@
     },
     "pantropicalspotteddolphin": {
         "engName": "Pantropical spotted dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -219,7 +219,7 @@
     },
     "atlanticspotteddolphin": {
         "engName": "Atlantic spotted dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -227,7 +227,7 @@
     },
     "frasersdolphin": {
         "engName": "Fraser’s dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -235,7 +235,7 @@
     },
     "whitebeakeddolphin": {
         "engName": "White-beaked dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -243,7 +243,7 @@
     },
     "whitesideddolphin": {
         "engName": "White-sided dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -251,7 +251,7 @@
     },
     "pacificwhitesideddolphin": {
         "engName": "Pacific white sided dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -259,7 +259,7 @@
     },
     "pealesdolphin": {
         "engName": "Peale’s dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -267,7 +267,7 @@
     },
     "hourglassdolphin": {
         "engName": "Hourglass dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -275,7 +275,7 @@
     },
     "duskydolphin": {
         "engName": "Dusky dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -283,7 +283,7 @@
     },
     "killerwhale": {
         "engName": "Killer whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "Orcinus_orca_NOAA_2.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -291,7 +291,7 @@
     },
     "shortfinnedpilotwhale": {
         "engName": "Short-finned pilot whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -299,7 +299,7 @@
     },
     "pilotwhale": {
         "engName": "Pilot whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -307,7 +307,7 @@
     },
     "pygmykillerwhale": {
         "engName": "Pygmy killer whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -315,7 +315,7 @@
     },
     "melonheadwhale": {
         "engName": "Melon head whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -323,7 +323,7 @@
     },
     "falsekillerwhale": {
         "engName": "False killer whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -331,7 +331,7 @@
     },
     "rissodolphin": {
         "engName": "Risso dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -339,7 +339,7 @@
     },
     "commersonsdolphin": {
         "engName": "Commerson’s dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -347,7 +347,7 @@
     },
     "chileandolphin": {
         "engName": "Chilean dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 12,
         "parentTag": "delphinidae",
@@ -355,7 +355,7 @@
     },
     "heavisidesdolphin": {
         "engName": "Heaviside’s dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -363,7 +363,7 @@
     },
     "hectorsdolphin": {
         "engName": "Hector’s dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -371,7 +371,7 @@
     },
     "nothernrightwhaledolphin": {
         "engName": "Nothern right whale dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 12,
         "parentTag": "delphinidae",
@@ -379,7 +379,7 @@
     },
     "southernrightwhaledolphin": {
         "engName": "Southern right whale dolphin",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "delphinidae",
@@ -389,7 +389,7 @@
 
     "monodontidae": {
         "engName": "Monodontidae",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "root",
@@ -397,7 +397,7 @@
     },
     "belugawhale": {
         "engName": "Beluga whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "monodontidae",
@@ -405,7 +405,7 @@
     },
     "narwhal": {
         "engName": "Narwhal",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "monodontidae",
@@ -415,7 +415,7 @@
 
     "phocoeninae": {
         "engName": "Phocoeninae (porpoise)",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "root",
@@ -423,7 +423,7 @@
     },
     "harbourporpoise": {
         "engName": "Harbour porpoise",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "phocoeninae",
@@ -431,7 +431,7 @@
     },
     "finlessporpoise": {
         "engName": "Finless porpoise",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "phocoeninae",
@@ -439,7 +439,7 @@
     },
     "spectacledporpoise": {
         "engName": "Spectacled porpoise",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "phocoeninae",
@@ -447,7 +447,7 @@
     },
     "vaquita": {
         "engName": "Vaquita",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "phocoeninae",
@@ -455,7 +455,7 @@
     },
     "dallsporpoise": {
         "engName": "Dall’s porpoise",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "phocoeninae",
@@ -465,7 +465,7 @@
 
     "ziphidae": {
         "engName": "Ziphidae (beaked whale)",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "root",
@@ -473,7 +473,7 @@
     },
     "ziphius": {
         "engName": "Ziphius",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -481,7 +481,7 @@
     },
     "arnouxsbeakedwhale": {
         "engName": "Arnoux’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -489,7 +489,7 @@
     },
     "bairdbeakedwhale": {
         "engName": "Baird beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 3,
         "parentTag": "ziphidae",
@@ -497,7 +497,7 @@
     },
     "shepherdsbeakedwhale": {
         "engName": "Shepherd’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -505,7 +505,7 @@
     },
     "tropicalbottlenosewhale": {
         "engName": "Tropical bottlenose whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -513,7 +513,7 @@
     },
     "nothernbottlenosewhale": {
         "engName": "Nothern bottlenose whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "Hyperoodon.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -521,7 +521,7 @@
     },
     "southernbottlenosewhale": {
         "engName": "Southern bottlenose whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -529,7 +529,7 @@
     },
     "hectorsbeakedwhale": {
         "engName": "Hector’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 4,
         "parentTag": "ziphidae",
@@ -537,7 +537,7 @@
     },
     "truesbeakedwhale": {
         "engName": "True’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -545,7 +545,7 @@
     },
     "gervaissbeakedwhale": {
         "engName": "Gervais’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -553,7 +553,7 @@
     },
     "sowerbysbeakedwhale": {
         "engName": "Sowerby’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -561,7 +561,7 @@
     },
 	"graysbeakedwhale": {
         "engName": "Gray’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -569,7 +569,7 @@
     },
 	"pygmybeakedwhale": {
         "engName": "Pygmy beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -577,7 +577,7 @@
     },
 	"andrewsbeakedwhale": {
         "engName": "Andrew’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -585,7 +585,7 @@
     },
 	"spadetoothedwhale": {
         "engName": "Spade-toothed whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -593,7 +593,7 @@
     },
 	"hubbsbeakedwhale": {
         "engName": "Hubbs’ beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -601,7 +601,7 @@
     },
 	"ginkgotoothedbeakedwhale": {
         "engName": "Ginkgo-toothed beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -609,7 +609,7 @@
     },
 	"stejnegersbeakedwhale": {
         "engName": "Stejneger’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -617,7 +617,7 @@
     },
 	"straptoothedwhale": {
         "engName": "Strap-toothed whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -625,7 +625,7 @@
     },
 	"blainvillesbeakedwhale": {
         "engName": "Blainville’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -633,7 +633,7 @@
     },
 	"perrinsbeakedwhale": {
         "engName": "Perrin’s beaked whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "ziphidae",
@@ -643,7 +643,7 @@
 
 	"physeteroidea": {
         "engName": "Sperm whale & kogiidae",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 32,
         "parentTag": "root",
@@ -651,7 +651,7 @@
     },
     "spermwhale": {
         "engName": "Sperm whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "Physeter_macrocephalus_NOAA.jpg",
         "occurrence": 32,
         "parentTag": "physeteroidea",
@@ -659,7 +659,7 @@
     },
     "pygmyspermwhale": {
         "engName": "Pygmy sperm whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "physeteroidea",
@@ -667,7 +667,7 @@
     },
     "dwarfwhale": {
         "engName": "Dwarf whale",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 0,
         "parentTag": "physeteroidea",
@@ -685,7 +685,7 @@
     },
     "boat": {
         "engName": "Boat",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 34,
         "parentTag": "human",
@@ -703,7 +703,7 @@
     },
     "rain": {
         "engName": "Rain",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 41,
         "parentTag": "nature",
@@ -711,7 +711,7 @@
     },
     "wind": {
         "engName": "Wind",
-        "engDesc": "Description.",
+        "engDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
         "image": "example.jpg",
         "occurrence": 23,
         "parentTag": "nature",

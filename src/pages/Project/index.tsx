@@ -69,17 +69,18 @@ export const Project: React.FC = () => {
 
   <Banner>
     <p>
-      <span className="spring">12 millions</span> <br/>
-      de gros chiffres <br/>
-      par minute
+      <span className="spring">Lorem</span> <br/>
+      {/* de gros chiffres <br/>
+      par minute */}
     </p>
     <p>
-      <span className="spring">12.456</span> <br/>
-      au bas mot !
+      <span className="spring">Lorem</span> <br/>
+      ipsum
     </p>
     <p>
-      <span className="spring">3 trillions</span> <br/>
-      C'est énorme !
+      <span className="spring">Lorem</span> <br/>
+      ipsum <br/>
+      dolor
     </p>
   </Banner>
 

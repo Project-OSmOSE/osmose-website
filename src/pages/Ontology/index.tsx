@@ -15,7 +15,7 @@ export const Ontology: React.FC = () => {
 
 // page title got from url query
 let urlQuery = window.location.search.slice(1);
-console.log('urlQuery contains : ', urlQuery);
+// console.log('urlQuery contains : ', urlQuery);
 const jsonStr = JSON.stringify(jsonFile);
 const jsonObject = JSON.parse(jsonStr);
 let tag = jsonObject[urlQuery];
@@ -54,13 +54,13 @@ console.log('tag contains : ', typeof tag, tag);
     />
   </div>
 
-  <div className="container my-5">
+  {/* <div className="container my-5">
     <h2>Sound examples</h2>
-    {/* <audio controls preload="auto">
+    <audio controls preload="auto">
       <source src={musicFile} type="audio/mpeg" />
       Your browser does not support the audio element.
-    </audio> */}
-  </div>
+    </audio>
+  </div> */}
 
   <div className="container my-5">
     <h2>Occurences in datasets</h2>

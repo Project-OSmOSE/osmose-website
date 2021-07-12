@@ -54,7 +54,6 @@ div.home .grid {
     display: grid;
     -ms-grid-columns: auto;
     grid-template-columns: auto;  /* on déclare 1 colonne de base */
-    /* grid-gap: 5px; */
     padding: 0;
     margin: 0;
 }
@@ -67,13 +66,13 @@ div.home .grid .card {
 }
 
 @media screen and (min-width: 768px) {
+    /* two columns for big screens */
     div.home .grid {
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
     div.home .grid .card {
         height: 45vw;
-        /* max-height: 80vh; */
     }
 }
 

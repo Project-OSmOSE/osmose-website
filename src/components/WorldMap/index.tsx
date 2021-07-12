@@ -135,14 +135,32 @@ export const WorldMap: React.FC<WorldMapProps> = ({
             url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
           /> */}
 
-          {/* <Marker 
+          <Marker 
           // position={coord}
           position={[0.0, 0.0]}
           >
             <Popup>
               Description here.
             </Popup>
-          </Marker> */}
+          </Marker>
+
+          <Marker 
+          // position={coord}
+          position={[12.0, -45.0]}
+          >
+            <Popup>
+              Description here.
+            </Popup>
+          </Marker>
+
+          <Marker 
+          // position={coord}
+          position={[-35.0, 225.0]}
+          >
+            <Popup>
+              Description here.
+            </Popup>
+          </Marker>
 
           {/* {addMarker()} */}
           {/* {addAllMarkers()} */}
