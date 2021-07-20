@@ -33,8 +33,11 @@ export const Project: React.FC = () => {
   </PageTitle>
 
   <section className="container my-5">
+
+
+
     <Card
-    title="Notre mission"
+    title="Nos missions"
     img={mission}
     imgSide="left"
     imgAlt="Groupe de dauphins"
@@ -43,7 +46,9 @@ export const Project: React.FC = () => {
     // urlDesc=""
     >
       <p>
-        OSmOSE est un Groupement d'Intérêt Scientifique (GIS) réunissant plusieurs domaines d'expertise afin de proposer à la communauté de l'acoustique passive sous-marine (UPA) des outils simples et puissants dédiés à l'analyse de l'environnement marin. <br/>
+        OSmOSE (Open Science meets Ocean Sound Explorers) is a scientific interest group addressing methodological questions on underwater passive acoutics.
+
+        est un Groupement d'Intérêt Scientifique (GIS) réunissant plusieurs domaines d'expertise afin de proposer à la communauté de l'acoustique passive sous-marine (UPA) des outils simples et puissants dédiés à l'analyse de l'environnement marin. <br/>
         OSmOSE aims to facilitate interactions between the different Underwater Passive Acoustics (UPA) actors, to achieve more collaborative works. <br/>
         How? Through open sciences and active collaboration on one (Science) side, and developing big data oriented and web based tools on the other (Technology) side. <br/>
       </p>
