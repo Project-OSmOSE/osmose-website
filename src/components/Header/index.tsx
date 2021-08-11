@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
-import logo from '../../images/logo_seul_couleur.png';
+import logo from '../../images/logo/logo_seul_couleur.png';
 
 export const Header: React.FC = () => {
 return (
@@ -27,13 +27,13 @@ return (
           <Link to="/" className="nav-link navigation-link">Accueil</Link>
         </li> */}
         <li className="mx-5 mx-md-4 nav-item">
-          <Link to="/project" className="nav-link navigation-link">Présentation</Link>
+          <Link to="/project" className="nav-link navigation-link">Meet</Link>
         </li>
         <li className="mx-5 mx-md-4 nav-item d-none pipe">
           <span className="nav-link navigation-link">|</span>
         </li>
         <li className="mx-5 mx-md-4 nav-item">
-          <Link to="/explore" className="nav-link navigation-link">Explorateur</Link>
+          <Link to="/explore" className="nav-link navigation-link">Explore</Link>
         </li>
         {/* <li className="mx-5 mx-md-4 nav-item">
           <Link to="/people" className="nav-link navigation-link">Equipe</Link>

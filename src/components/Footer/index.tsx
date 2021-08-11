@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles.css';
-import ifremer from '../../images/logo_ifremer_blanc_267_250.webp';
+import ifremer from '../../images/logo/logo_ifremer_blanc_267_250.webp';
 // import imgBanner from '../../images/maxresdefault.jpg';
 
 export const Footer: React.FC = () => {
@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
 
     <p className="m-3">
       Contact : <br />
-      <a href="mailto:dorian.cazau@ensta-bretagne.fr" title="Contact OSmOSE"> dorian.cazau@ensta-bretagne.fr</a>
+      <a href="mailto:contact-osmose@ensta-bretagne.fr" title="Contact OSmOSE"> contact-osmose@ensta-bretagne.fr</a>
     </p>
     <p className="m-3">
       OSmOSE <a href="/humans.txt" title="Full credits"> credits</a>, <br /> GPL-3.0, 2021

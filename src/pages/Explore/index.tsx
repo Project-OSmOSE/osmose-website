@@ -9,7 +9,7 @@ import './styles.css';
 // import imgBanner from '../../images/maxresdefault.jpg';
 // import imgExplore from '../../images/pexels-daniel-torobekov-5901263_top.jpg';
 // import imgExplore from '../../images/pexels-elianne-dipp-4666753_2;1.jpg';
-import imgExplore from '../../images/pexels-jeremy-bishop-2422915_1920_thin.jpg';
+import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_1920_thin.jpg';
 
 // import jsonFile from '../../ontology.json';
 
@@ -28,7 +28,7 @@ export const Explore: React.FC = () => {
   // imgSet=""
   >
     <h1 className="align-self-center">
-      Explorateur
+      Explore
     </h1>
   </PageTitle>
 

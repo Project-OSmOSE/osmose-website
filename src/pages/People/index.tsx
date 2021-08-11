@@ -8,16 +8,19 @@ import { CardMemberTextless } from '../../components/CardMemberTextless';
 import './styles.css';
 // import imgBanner from '../../images/maxresdefault.jpg';
 // import imgPeople from '../../images/pexels-jeremy-bishop-2397610_1280_thin.jpg';
-import imgPeople from '../../images/pexels-daniel-torobekov-5901263_1280_thin.jpg';
+import imgPeople from '../../images/illust/pexels-daniel-torobekov-5901263_1280_thin.jpg';
 
-import brest from '../../images/port-1338851_640.jpg';
-import enstalogo from '../../images/logo_ensta.png';
-import labsticlogo from '../../images/logo_lab-stic.png';
-import ubologo from '../../images/logo2_ubo.png';
+import brest from '../../images/illust/port-1338851_640.jpg';
+import enstalogo from '../../images/logo/logo_ensta.png';
+import labsticlogo from '../../images/logo/logo_lab-stic.png';
+import ubologo from '../../images/logo/logo2_ubo.png';
 // import imtlogo from '../../images/logo_imt.jpg';
 
-import defautPortrait from '../../images/default_profil.png'
+import defautPortrait from '../../images/people/default_profil.png'
 // import projectImg from '../../images/logo_project.png';
+import florePortrait from '../../images/people/team_flore_420_420.webp'
+import juliePortrait from '../../images/people/team_Photo_Julie_420_420.webp'
+import dorianPortrait from '../../images/people/team_dodo_420_420.webp'
 
 export const People: React.FC = () => {
   return (
@@ -35,16 +38,20 @@ export const People: React.FC = () => {
 
   <section className="container my-5">
     <Card
-    title="Qui sommes-nous ?"
+    title="Who are we ?"
     img={brest}
     imgSide="left"
     imgAlt="Brest"
     // url="/people"
     // urlDesc="Lien vers la page"
     >
+
       <p>
-        OSmOSE est composé d'universitaires et de chercheurs travaillant dans le domaine de l'acoustique sous-marine, de l'observation des océans et de la protection de la biodiversité marine. Cette équipe, basée à Brest, s'est associée à des développeurs talentueux pour mettre en place des technologies d'analyse des sons océaniques.
+      Launched in Brest (France) in 2018, OSmOSE is a multi-institutional research consortium composed of marine biologists, acousticians, data scientists and computer professionals.
       </p>
+      {/* <p>
+        OSmOSE est composé d'universitaires et de chercheurs travaillant dans le domaine de l'acoustique sous-marine, de l'observation des océans et de la protection de la biodiversité marine. Cette équipe, basée à Brest, s'est associée à des développeurs talentueux pour mettre en place des technologies d'analyse des sons océaniques.
+      </p> */}
         {/* OSmOSE is made of several teams working togeter:
 
         ODE (Ocean Data Explorer): develop all the computer technology used to manage and process Data (at scale with speed and in context, naturally Big)
@@ -54,7 +61,7 @@ export const People: React.FC = () => {
   </section>
 
   <div className="container mt-5">
-    <p className="lead">Instituts affiliées :</p>
+    {/* <p className="lead">Instituts affiliées :</p> */}
   </div>
 
   <Banner>
@@ -68,33 +75,7 @@ export const People: React.FC = () => {
 
     <h2>ODE</h2>
 
-    <p>The ODE (Ocean Data Explorer) team develop all the computer technology used to manage and process data.</p>
-
-    <CardMember 
-    name="Joseph Allemandou"
-    img={defautPortrait}
-    imgSide="left"
-    imgAlt="Joseph’s portrait."
-    // job="Data Scientist"
-    url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate
-      </p>
-    </CardMember>
-
-    <CardMember 
-    name="Alexandre Degurse"
-    img={defautPortrait}
-    imgSide="right"
-    imgAlt="Alexandre’s portrait."
-    // job="Data Scientist"
-    url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
-      </p>
-    </CardMember>
+    <p>We (Ocean Data Explorer) develop all the computer technology used to manage and process data.</p>
 
     <CardMember
     name="Erwan Keribin"
@@ -102,7 +83,8 @@ export const People: React.FC = () => {
     imgSide="left"
     imgAlt="Erwan’s portrait."
     // job="Data Scientist"
-    url="https://www.google.com"
+    // url="https://www.google.com"
+    // urlDesc="Page personnelle"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate
@@ -115,7 +97,8 @@ export const People: React.FC = () => {
     imgSide="right"
     imgAlt="Romain’s portrait"
     // job="Data Scientist"
-    url="https://www.google.com"
+    // url="https://www.google.com"
+    // urlDesc="Page personnelle"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
@@ -126,19 +109,22 @@ export const People: React.FC = () => {
   <section className="container my-5">
 
     <h2>AIe</h2>
+    {/* Artificial intelligence explorer */}
 
-    <p>AIe develop all the computer technology used to make computers learn and recognize ocean sounds.</p>
+    <p>We (Artificial Intelligence explorer) develop all the machine intelligence for ocean sound exploration.</p>
 
     <CardMember 
     name="Dorian Cazau"
-    img={defautPortrait}
+    img={dorianPortrait}
     imgSide="left"
     imgAlt="Dorian’s portrait."
     job="Data Scientist"
-    // url="https://www.google.com"
+    url="https://cazaudorian.wixsite.com/homepage"
+    urlDesc="Page personnelle"
     >
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate
+        I'm a french Assistant Professor specialized in Data Sciences for Ocean Sciences, currently working in the Lab-STICC at ENSTA Bretagne in Brest (French Brittany). <br/>
+        My scientific background is in fundamental physics, audio signal processing and general acoustic engineering, with which I have more recently combined statistical modeling and machine learning methods. My research can be summarized as the development of original physics-based machine learning methods to answer concrete questions from different acoustic-using communities, including oceanography, bioacoustics and music.
       </p>
     </CardMember>
 
@@ -148,54 +134,42 @@ export const People: React.FC = () => {
     imgSide="right"
     imgAlt="Paul’s portrait"
     // job="Data Scientist"
-    url="https://www.google.com"
     >
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+      I am a postdoctoral fellow jointly hosted at <a href="https://people.math.carleton.ca/~davecampbell/Dave_Campbell.html">Carleton University</a> and Simon Fraser University. I am working on the development of deep learning models to help identify Southern Resident Killer Whale vocalizations in the Salish Sea. I have a background in image and signal processing and I did my doctoral research project at Sorbonne Université in France. The aim was to deal with the lack of annotated data (weak supervision) for underwater acoustic scene or event detection and classification in a Big Data context. My research interests in the marine environment include (but are not limited to) characterizing a soundscape, and developing detection and classification models for underwater sounds.
       </p>
     </CardMember>
-
-    <CardMember
-    name="Richard Dréo"
-    img={defautPortrait}
-    imgSide="left"
-    imgAlt="Richard’s portrait."
-    // job="Data Scientist"
-    // url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate
-      </p>
-    </CardMember>
-
   </section>
 
   <section className="container my-5">
 
-    <h2>Underwater Passive Acoustics sciences</h2>
-
-    <p>Ocean science specialists.</p>
+    <h2>OSE</h2> 
+    <p>
+      We (Ocean Sound Explorer) design and use tools, conduct collaborative studies and inform relevant communities.
+    </p>
 
     <CardMember 
     name="Julie Béesau"
-    img={defautPortrait}
+    img={juliePortrait}
     imgSide="left"
     imgAlt="Julie’s portrait."
     // job="Data Scientist"
     // url="https://www.google.com"
+    // urlDesc="Page personnelle"
     >
       <p className="quote">
-      Je suis ingénieur d’étude au sein de l’ENSTA Bretagne depuis 2017 et je travaille dans l’équipe de bioacoustique sur le suivi des populations de mammifères marins par acoustique passive. L’acoustique passive est, pour moi, un outil pour l’étude et la conservation des mammifères marins et plus précisément des cétacés le long des côtes françaises. Au sein de l’équipe OSMOSE, je travaille du côté des scientifiques en tant qu’utilisatrice des outils développés par les informaticiens notamment sur la plateforme d’annotation en ligne APLOSE ainsi qu’à l’analyse des résultats obtenus et à leurs valorisations scientifiques.
+        Je suis ingénieur d’étude au sein de l’ENSTA Bretagne depuis 2017 et je travaille dans l’équipe de bioacoustique sur le suivi des populations de mammifères marins par acoustique passive. L’acoustique passive est, pour moi, un outil pour l’étude et la conservation des mammifères marins et plus précisément des cétacés le long des côtes françaises. Au sein de l’équipe OSMOSE, je travaille du côté des scientifiques en tant qu’utilisatrice des outils développés par les informaticiens notamment sur la plateforme d’annotation en ligne APLOSE ainsi qu’à l’analyse des résultats obtenus et à leurs valorisations scientifiques.
       </p>
     </CardMember>
 
     <CardMember 
     name="Flore Samaran"
-    img={defautPortrait}
+    img={florePortrait}
     imgSide="right"
     imgAlt="Flore’s portrait."
     // job="Data Scientist"
     // url="https://www.google.com"
+    // urlDesc="Page personnelle"
     >
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
@@ -209,61 +183,10 @@ export const People: React.FC = () => {
     imgAlt="Maëlle’s portrait."
     // job="Data Scientist"
     // url="https://www.google.com"
+    // urlDesc="Page personnelle"
     >
       <p>
-      Je suis ingénieur de recherche à l’ENSTA Bretagne depuis 2020, où j’ai précédemment effectué ma thèse de doctorat en co-encadrement avec l’Université de Bretagne Occidentale. Je travaille au sein de l’équipe bioacoustique et m’intéresse aux questions de suivi des mammifères marins par acoustique passive, de l’océan Indien aux côtes bretonnes. Je suis utilisatrice des outils développés par l’équipe OSmOSE, notamment de la plateforme d’annotation Aplose, mais aussi des notebooks de calculs de descripteurs acoustiques. J’essaie en parallèle de m’investir dans le développement de ces outils.
-      </p>
-    </CardMember>
-
-    <CardMember
-    name="Olivier Adam"
-    img={defautPortrait}
-    imgSide="right"
-    imgAlt="Olivier’s portrait"
-    // job="Data Scientist"
-    url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
-      </p>
-    </CardMember>
-
-    <CardMember
-    name="Delphine Mathias"
-    img={defautPortrait}
-    imgSide="left"
-    imgAlt="Delphine’s portrait"
-    // job="Data Scientist"
-    url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
-      </p>
-    </CardMember>
-
-    <CardMember
-    name="Yann Doh"
-    img={defautPortrait}
-    imgSide="right"
-    imgAlt="Yann’s portrait"
-    // job="Data Scientist"
-    url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
-      </p>
-    </CardMember>
-
-    <CardMember
-    name="Gaetan Richard"
-    img={defautPortrait}
-    imgSide="left"
-    imgAlt="Gaetan’s portrait"
-    // job="Data Scientist"
-    url="https://www.google.com"
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Consectetur error dolores iusto eius quaerat?
+        Je suis ingénieur de recherche à l’ENSTA Bretagne depuis 2020, où j’ai précédemment effectué ma thèse de doctorat en co-encadrement avec l’Université de Bretagne Occidentale. Je travaille au sein de l’équipe bioacoustique et m’intéresse aux questions de suivi des mammifères marins par acoustique passive, de l’océan Indien aux côtes bretonnes. Je suis utilisatrice des outils développés par l’équipe OSmOSE, notamment de la plateforme d’annotation Aplose, mais aussi des notebooks de calculs de descripteurs acoustiques. J’essaie en parallèle de m’investir dans le développement de ces outils.
       </p>
     </CardMember>
 
@@ -272,42 +195,29 @@ export const People: React.FC = () => {
   <section className="container my-5">
 
     <h2>Ancient members</h2>
-    <p>Remerciements.</p>
+    <p>Acknowledgements.</p>
 
     <div className="grid-container">
       <CardMemberTextless 
         img={defautPortrait}
-        imgAlt="Ma photo"
-        name="Henri BEAUCOUR"
-        job="Stagiaire"
-        url="https://www.google.com"
+        imgAlt="Joseph’s portrait."
+        name="Joseph Allemandou"
+        // job="Lead"
+        // url="https://www.google.com"
+        // urlDesc="Page personnelle"
         >
       </CardMemberTextless>
 
       <CardMemberTextless 
         img={defautPortrait}
-        imgAlt="Ma photo"
-        name="Michel BEAUCOUR"
-        job="Detective"
-        url="https://www.google.com"
+        imgAlt="Alexandres portrait"
+        name="Alexandre Degurse"
+        // job=""
+        // url="https://www.google.com"
+        // urlDesc="Page personnelle"
         >
       </CardMemberTextless>
-      <CardMemberTextless 
-        img={defautPortrait}
-        imgAlt="Ma photo"
-        name="Michel BEAUCOUR"
-        job="Detective"
-        url="https://www.google.com"
-        >
-      </CardMemberTextless>
-      <CardMemberTextless 
-        img={defautPortrait}
-        imgAlt="Ma photo"
-        name="Michel BEAUCOUR"
-        job="Detective"
-        // url=""
-      >
-      </CardMemberTextless>
+
     </div>
 
     {/* large image of team together */}

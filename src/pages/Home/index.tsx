@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 // import imgBanner from '../../images/maxresdefault.jpg';
-import imgProject from '../../images/pexels-elianne-dipp-4666753_848.jpg'
-import imgExplore from '../../images/pexels-jeremy-bishop-2422915_848.jpg'
+import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_848.jpg'
+import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_848.jpg'
 
 export const Home: React.FC = () => {
 return (
@@ -34,7 +34,7 @@ return (
       // srcSet= 
       />
       <div className="card-img-overlay pb-1 d-flex overlay justify-content-center">
-        <h2 className="card-title text-white align-self-center">Présentation</h2>
+        <h2 className="card-title text-white align-self-center">Meet</h2>
         <Link to="./project" title="Découvrez OSmOSE." className="stretched-link"></Link>
       </div>
     </div>
@@ -49,9 +49,14 @@ return (
       // srcSet= 
       />
       <div className="card-img-overlay pb-1 d-flex overlay justify-content-center">
-        <h2 className="card-title text-white align-self-center">Explorateur</h2>
+        <h2 className="card-title text-white align-self-center">Explore</h2>
         <Link to="./explore" title="Explorer les données." className="stretched-link"></Link>
       </div>
+    </div>
+
+    {/* Space after cards */}
+    <div className="bottom-space">
+
     </div>
 
   </div>

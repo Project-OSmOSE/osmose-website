@@ -2,11 +2,12 @@
 
 } */
 
-div.project div.banner:first-of-type {
+div.project div.banner:nth-child(odd) {
     background-color: #1890cc;
     /* background-color: #00b6d9; */
 }
 
 div.project div.banner span.spring {
     font-size: larger;
+    /* font-size: 2rem; */
 }
