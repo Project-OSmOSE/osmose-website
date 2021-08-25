@@ -157,9 +157,12 @@ export const People: React.FC = () => {
     // url="https://www.google.com"
     // urlDesc="Page personnelle"
     >
-      <p className="quote">
-        Je suis ingénieur d’étude au sein de l’ENSTA Bretagne depuis 2017 et je travaille dans l’équipe de bioacoustique sur le suivi des populations de mammifères marins par acoustique passive. L’acoustique passive est, pour moi, un outil pour l’étude et la conservation des mammifères marins et plus précisément des cétacés le long des côtes françaises. Au sein de l’équipe OSMOSE, je travaille du côté des scientifiques en tant qu’utilisatrice des outils développés par les informaticiens notamment sur la plateforme d’annotation en ligne APLOSE ainsi qu’à l’analyse des résultats obtenus et à leurs valorisations scientifiques.
+      <p>
+      I am a research engineer at ENSTA Bretagne since 2017 and I work in the bioacoustic team on the monitoring of marine mammal population by passive acoustics. Passive acoustics is, for me, a tool for the study and conservation of marine mammals and more precisely cetaceans along the French coast. Within the OSMOSE team, I work on the scientists' side as a user of the tools developed by the computer scientists, particularly on the APLOSE online annotation platform, as well as analysing the results obtained and their scientific use.
       </p>
+      {/* <p className="quote">
+        Je suis ingénieur d’étude au sein de l’ENSTA Bretagne depuis 2017 et je travaille dans l’équipe de bioacoustique sur le suivi des populations de mammifères marins par acoustique passive. L’acoustique passive est, pour moi, un outil pour l’étude et la conservation des mammifères marins et plus précisément des cétacés le long des côtes françaises. Au sein de l’équipe OSMOSE, je travaille du côté des scientifiques en tant qu’utilisatrice des outils développés par les informaticiens notamment sur la plateforme d’annotation en ligne APLOSE ainsi qu’à l’analyse des résultats obtenus et à leurs valorisations scientifiques.
+      </p> */}
     </CardMember>
 
     <CardMember 
@@ -186,8 +189,11 @@ export const People: React.FC = () => {
     // urlDesc="Page personnelle"
     >
       <p>
-        Je suis ingénieur de recherche à l’ENSTA Bretagne depuis 2020, où j’ai précédemment effectué ma thèse de doctorat en co-encadrement avec l’Université de Bretagne Occidentale. Je travaille au sein de l’équipe bioacoustique et m’intéresse aux questions de suivi des mammifères marins par acoustique passive, de l’océan Indien aux côtes bretonnes. Je suis utilisatrice des outils développés par l’équipe OSmOSE, notamment de la plateforme d’annotation Aplose, mais aussi des notebooks de calculs de descripteurs acoustiques. J’essaie en parallèle de m’investir dans le développement de ces outils.
+        I am a research engineer at ENSTA Bretagne since 2020, where I previously completed my PhD thesis in co-supervision with the Université de Bretagne Occidentale. I work in the bioacoustics team and I am interested in passive acoustic monitoring of marine mammals, from the Indian Ocean to the Brittany's coasts. I use the tools developed by the OSmOSE team, in particular the annotation platform Aplose, but also the notebooks for calculating acoustic descriptors. I am also investing in the development of these tools.
       </p>
+      {/* <p>
+        Je suis ingénieur de recherche à l’ENSTA Bretagne depuis 2020, où j’ai précédemment effectué ma thèse de doctorat en co-encadrement avec l’Université de Bretagne Occidentale. Je travaille au sein de l’équipe bioacoustique et m’intéresse aux questions de suivi des mammifères marins par acoustique passive, de l’océan Indien aux côtes bretonnes. Je suis utilisatrice des outils développés par l’équipe OSmOSE, notamment de la plateforme d’annotation Aplose, mais aussi des notebooks de calculs de descripteurs acoustiques. J’essaie en parallèle de m’investir dans le développement de ces outils.
+      </p> */}
     </CardMember>
 
   </section>
