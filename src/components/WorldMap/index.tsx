@@ -113,9 +113,9 @@ export const WorldMap: React.FC<WorldMapProps> = ({
   return (
     <div className="worldMap">
 
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <h3>Localisation</h3>
-      </div>
+      </div> */}
 
       <div className="container-fluid my-3 myMap">
         <MapContainer 
@@ -124,6 +124,7 @@ export const WorldMap: React.FC<WorldMapProps> = ({
         scrollWheelZoom={false}
         >
           <TileLayer
+            // pastel colours map with bathymetry
             attribution='Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri'
             url='https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}'
             // maxZoom='13'
@@ -172,23 +173,23 @@ export const WorldMap: React.FC<WorldMapProps> = ({
 
       </div>
 
-      <div className="container-fluid my-3 d-flex justify-content-between align-items-stretch infos">
+      {/* <div className="container-fluid my-3 d-flex justify-content-between align-items-stretch infos">
 
         <div id="list">
           <h3>List</h3>
           <div>
-          {/* List of datasets */}
+            <!-- List of datasets -->
           </div>
         </div>
 
-        {/* <div id="metadata">
+        <!-- <div id="metadata">
           <h3>MetaData</h3>
           <div>
             
           </div>
-        </div> */}
+        </div> -->
 
-      </div>
+      </div> */}
     </div>
   );
 }

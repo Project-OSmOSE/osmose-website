@@ -2,14 +2,14 @@ import React from 'react';
 import { BreadCrumb } from '../../components/BreadCrumb';
 import { TreeList } from '../../components/TreeList';
 import { WorldMap } from '../../components/WorldMap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // import jsonFile from './ontology.json';
 import jsonFile from '../../ontology.json';
 import './styles.css';
 // import musicFile from '../../images/music_kkivb11.mp3';
 
-// REMPLACER CE QUI SUIS PAR UNE QUERY DU GENRE ?q=valeurniveau1+valeurniveau2+valeurniveau3
+// remplacer par (?) : ?q=valeurniveau1+valeurniveau2+valeurniveau3
 
 export const Ontology: React.FC = () => {
 

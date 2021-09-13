@@ -1,8 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap'); */
 
-html{
+/* html{
 
-}
+} */
 
 body {
   /* font-family: 'Exo 2', sans-serif; */
@@ -48,6 +48,9 @@ h3{
   padding: 0.5rem 0;
 }
 
+a{
+  text-decoration: none;
+}
 a:link{
   /* color: rgb(255, 118, 27); */
   color: #00b6d9;
@@ -59,10 +62,12 @@ a:visited{
 a:hover{
   /* color: rgb(255, 108, 10); */
   color: #00d5ff;
+  text-decoration: underline solid;
 }
 a:active{
   /* color: rgb(255, 102, 0); */
   color: orangered;
+  text-decoration: underline solid;
 }
 
 .card{

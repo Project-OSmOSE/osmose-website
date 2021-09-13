@@ -3,9 +3,9 @@ import { PageTitle } from '../../components/PageTitle';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
-// import imgBanner from '../../images/maxresdefault.jpg';
-import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_848.jpg'
-import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_848.jpg'
+
+import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_848.jpg';
+import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_848.jpg';
 
 export const Home: React.FC = () => {
 return (
@@ -18,7 +18,8 @@ return (
   >
     <h1 className="align-self-center">
       OSmOSE<br />
-      <span>Underwater passive acoustics for ocean observation</span>
+      <span>Open Science meets Ocean Sound Explorers</span>
+      {/* <span>Underwater passive acoustics for ocean observation</span> */}
     </h1>
   </PageTitle>
 
@@ -54,9 +55,8 @@ return (
       </div>
     </div>
 
-    {/* Space after cards */}
     <div className="bottom-space">
-
+     {/* Space after cards */}
     </div>
 
   </div>

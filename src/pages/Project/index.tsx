@@ -4,18 +4,10 @@ import { Card } from '../../components/Card';
 import { Banner } from '../../components/Banner';
 
 import './styles.css';
-// import imgBanner from '../../images/maxresdefault.jpg';
-// import imgProject from '../../images/pexels-kammeran-gonzalezkeola-7082101.jpg';
-// import imgProject from '../../images/pexels-daniel-torobekov-5901263_2;1.jpg';
 import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_1280_thin.jpg';
-
+import imgMinou from '../../images/illust/Phare_du_petit_Minou_640_427.webp';
 import underwater from '../../images/illust/dolphins-918752_640.jpg';
-// import valeur from '../../images/open_source.png';
-// import techno from '../../images/pexels-panumas-nikhomkhai-1148820.jpg';
-// import particip from '../../images/pexels-william-fortunato-6140678.jpg';
-import logoODE from '../../images/logo/logo_seul_couleur_500_360.webp';
-// import logoODE2 from '../../images/logo/logo_seul_bleu_500_360.webp';
-import logoifremer from '../../images/logo/logo_ifremer.png';
+
 import logoofb from '../../images/logo/logo_ofb.png';
 import logoisblue from '../../images/logo/logo_isblue3.png';
 import logothales from '../../images/logo/logo_thales2.png';
@@ -38,15 +30,15 @@ export const Project: React.FC = () => {
   <section className="container my-5">
     <Card
     title="In a nutshell"
-    img={logoODE}
+    img={imgMinou}
     imgSide="right"
-    imgAlt="Groupe de dauphins"
+    // imgAlt="Groupe de dauphins"
     // subtitle=""
     url="/people"
     urlDesc="Learn more about our team."
     >
       <p>
-      OSmOSE (Open Science meets Ocean Sound Explorers) is a multi-institutional research consortium addressing underwater passive acoustics (UPA) methodological questions within projects dedicated to Ocean sustainability. <br/>
+      OSmOSE (Open Science meets Ocean Sound Explorers) is a multi-institutional research consortium addressing underwater passive acoustics methodological questions within projects dedicated to ocean sustainability. <br/>
       OSmOSE, composed of marine biologists, acousticians, data scientists and computer professionals, was launched in Brest (France) in 2018.
       </p>
     </Card>
@@ -55,7 +47,7 @@ export const Project: React.FC = () => {
   <Banner>
     <p>
       <span className="spring">4</span> <br/>
-      research institutes
+      partners
     </p>
     <p>
       <span className="spring">7</span> <br/>
@@ -82,30 +74,20 @@ export const Project: React.FC = () => {
         <strong>Technology development</strong> 
         <ul>
           <li>create open-source standalone analysis tools </li> 
-          <li>integrate these tools in workflows hosted in a sustainable collaborative platform </li>
+          <li> integrate our tools in workflows hosted in a sustainable collaborative platform </li>
         </ul>
 
         <strong>Scientific expertise</strong>
         <ul>
           <li> build a scientific community and assist the members in the use of data science technologies</li>
           <li> facilitate collaborative interactions between members</li>
-          <li> perform large-scale meta-analysis, disseminated to the relevant communities via regular reviewed reports </li>
+          <li>build a scientific community and assist  members in the use of our tools</li>
+          <li> perform meta-analysis, disseminated via reviewed reports</li>
           <li> provide consulting expertise for various conservation organizations </li>
         </ul>
       </p>
     </Card>
   </section>
-
-  <div className="container mt-5">
-    <p className="lead">Partners</p>
-  </div>
-
-  <Banner>
-    <img className="" src={logoifremer} alt="Ifremer logo" title="Ifremer logo" />
-    <img className="" src={logoofb} alt="AFB logo" title="AFB logo" />
-    <img className="" src={logoisblue} alt="ISblue logo" title="ISblue logo" />
-    <img className="" src={logothales} alt="Thales Underwater systems logo" title="Thales Underwater systems logo" />
-  </Banner>
 
   <Banner>
     <p>
@@ -129,21 +111,20 @@ export const Project: React.FC = () => {
   <section className="container my-5">
     <Card
     title="Our values"
-    // img={valeur}
     img={logoFAIR}
     imgSide="right"
     // imgAlt=""
     // subtitle=""
-    // url="/"
+    // url=""
     // urlDesc=""
     >
       <p>
-      Applying Open science (FAIR) principles to Underwater Passive Acoustics.
+      We work towards applying open science / FAIR principles to underwater passive acoustics.
       </p>
 
       <blockquote className="blockquote text-center">
         <p>
-          Open science refers to the unhindered dissemination of results, methods and products from scientific research. It draws on the opportunity provided by recent digital progress to develop open access to publications and - as much as possible - data, source code and research methods.
+          « Open science refers to the unhindered dissemination of results, methods and products from scientific research. It draws on the opportunity provided by recent digital progress to develop open access to publications and - as much as possible - data, source code and research methods. »
         </p>
         <footer className="blockquote-footer"><a href="https://www.ouvrirlascience.fr/second-national-plan-for-open-science/"> ouvrirlascience.fr</a></footer>
       </blockquote>
@@ -154,37 +135,19 @@ export const Project: React.FC = () => {
     </Card>
   </section>
 
-  {/* <section className="container my-5">
-    <Card
-    title="Technologie"
-    img={techno}
-    imgSide="left"
-    imgAlt="Génial"
-    // subtitle=""
-    // url="/techno"
-    // urlDesc="En apprendre plus sur la technologie."
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Facilis sint dolor illum modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima et temporibus aliquid perferendis facilis, nihil est cumque? Odio commodi fuga quod ipsa. Earum ut labore totam inventore deserunt! Voluptate, explicabo.
-      </p>
-    </Card>
-  </section> */}
+  <div className="container my-5">
+    <h2>Funders</h2>
+  </div>
 
-  {/* <section className="container my-5">
-    <Card
-    title="Collaborer"
-    img={particip}
-    imgSide="right"
-    imgAlt="Personnes travaillant en équipe"
-    // subtitle=""
-    url="/people"
-    urlDesc="En apprendre plus sur notre équipe."
-    >
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus officia molestias, voluptate sapiente quod eaque sunt obcaecati ipsam consectetur error dolores iusto eius quaerat? Facilis sint dolor illum modi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima et temporibus aliquid perferendis facilis, nihil est cumque? Odio commodi fuga quod ipsa. Earum ut labore totam inventore deserunt! Voluptate, explicabo.
-    </p>
-    </Card>
-  </section> */}
+  <Banner>
+    <img className="" src={logoofb} alt="AFB logo" title="AFB logo" />
+    <img className="" src={logoisblue} alt="ISblue logo" title="ISblue logo" />
+    <img className="" src={logothales} alt="Thales Underwater systems logo" title="Thales Underwater systems logo" />
+  </Banner>
+
+  {/* Section technologie ?  */}
+
+  {/* Section collaborer ?  */}
 
 </div>
 );

@@ -1,5 +1,5 @@
 div.home{
-    background-image: url('../../images/illust/ODE_fond_image_1920_1440.webp');
+    background-image: url('../../images/illust/pexels-berend-de-kort-1452701_1920_1077.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(34, 106, 189, 0.26);
@@ -9,7 +9,7 @@ div.home{
     /* padding-bottom: 3rem; */
 }
 
-div.home header.pagetitle {
+div.home div.pagetitle {
     min-height: 30vh;
     height: 15rem;
     /* max-height: fit-content; */
@@ -18,13 +18,14 @@ div.home header.pagetitle {
     /* box-shadow: 0 0 50px 30px rgba(57, 117, 136, 0.26); */
 }
 
-div.home header.pagetitle img{
+div.home div.pagetitle img{
     display: none;
 }
 
 div.home h1{
     font-size: 3.5rem;
     text-align: left !important;
+    text-transform: none !important;
     margin: 2rem;
     padding: 3rem;
     /* background-color: rgba(57, 117, 136, 0.26); */
@@ -97,8 +98,8 @@ div.home .grid .card .overlay h2 {
 }
 
 div.home div.bottom-space{
-    min-height: 30vh;
-    height: 15rem;
+    min-height: 20vh;
+    height: 10rem;
     /* max-height: fit-content; */
     border: 0;
 }

@@ -26,13 +26,13 @@ export const TreeList: React.FC<TreeListProps> = ({
   var tagName: string = jsonObject[tag].engName;
   var tagDesc: string = jsonObject[tag].engDesc;
   var tagImage: string = jsonObject[tag].image;
-  var tagOccurrence: number = jsonObject[tag].occurrence;
-  var tagParent: string = jsonObject[tag].parentTag;
+  // var tagOccurrence: number = jsonObject[tag].occurrence;
+  // var tagParent: string = jsonObject[tag].parentTag;
   var tagChildren: string[] | null = jsonObject[tag].childrenTag;
   var tagPagePath =  "/ontology?" + tag;
   // }
 
-  var totalOccurence: number;
+  // var totalOccurence: number;
 
   // test if tag is found in ontology
   // need to send it to the component
@@ -75,15 +75,15 @@ export const TreeList: React.FC<TreeListProps> = ({
             let linkElem = document.createElement('a');
             linkElem.href = "/ontology?" + tagChildren[i];
             linkElem.innerText = jsonObject[tagChildren[i]].engName + " ";
-            let abbrElem = document.createElement('abbr');
-            abbrElem.innerHTML = "occ.";
-            abbrElem.title = "occurences";
-            let spanElem = document.createElement('span');
-            spanElem.classList.add('badge', 'badge-pill', 'text-secondary');
-            spanElem.innerHTML = tagChildrenOccurence + " ";
-            spanElem.appendChild(abbrElem);
+            // let abbrElem = document.createElement('abbr');
+            // abbrElem.innerHTML = "occ.";
+            // abbrElem.title = "occurences";
+            // let spanElem = document.createElement('span');
+            // spanElem.classList.add('badge', 'badge-pill', 'text-secondary');
+            // spanElem.innerHTML = tagChildrenOccurence + " ";
+            // spanElem.appendChild(abbrElem);
             liElem.appendChild(linkElem);
-            liElem.appendChild(spanElem);
+            // liElem.appendChild(spanElem);
             if (ulTree != null){
               ulTree.appendChild(liElem);
             } else{
@@ -121,7 +121,10 @@ export const TreeList: React.FC<TreeListProps> = ({
       {titleLevel === 'h3' ? <h3> <Link to={tagPagePath}> {tagName} </Link> </h3> : null}
       {tagImage !== 'example.jpg' ? <img src={imgPath + tagImage} alt={"Picture of a "+ tagName} className="illustration my-2" /> : null}
       {/* {tagImage !== 'example.jpg' ? <img src={imgExample} alt={"Picture of a "+ tagName} className="illustration my-2" /> : null} */}
-      <p>{tagDesc} {tagOccurrence !== 0 ? <span className="badge badge-pill text-secondary">{tagOccurrence + " occurrences"}</span> : null}</p>
+      <p>
+        {tagDesc} 
+        {/* {tagOccurrence !== 0 ? <span className="badge badge-pill text-secondary"></span>{tagOccurrence + " occurrences"}</span> : null} */}
+      </p>
       {/* totalOccurence */}
       <ul className="ultree" id={tag}>
       </ul>

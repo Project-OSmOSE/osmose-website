@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import { PageTitle } from '../../components/PageTitle';
 import { WorldMap } from '../../components/WorldMap';
-import { TileLayer, Marker, Popup } from 'react-leaflet';
+// import { TileLayer, Marker, Popup } from 'react-leaflet';
 import { TreeList } from '../../components/TreeList';
 
 import './styles.css';
