@@ -5,9 +5,8 @@ import { Banner } from '../../components/Banner';
 
 import './styles.css';
 import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_1280_thin.jpg';
-import imgMinou from '../../images/illust/Phare_du_petit_Minou_640_427.webp';
-import underwater from '../../images/illust/dolphins-918752_640.jpg';
-
+import imgNutshell from '../../images/illust/640px-Petit_Minou_Lighthouse_(50691630801)_640_428.webp';
+import imgMissions from '../../images/illust/thumbnail_4_Paysage_sonore_800_449.webp';
 import logoofb from '../../images/logo/logo_ofb.png';
 import logoisblue from '../../images/logo/logo_isblue3.png';
 import logothales from '../../images/logo/logo_thales2.png';
@@ -30,7 +29,7 @@ export const Project: React.FC = () => {
   <section className="container my-5">
     <Card
     title="In a nutshell"
-    img={imgMinou}
+    img={imgNutshell}
     imgSide="right"
     // imgAlt="Groupe de dauphins"
     // subtitle=""
@@ -62,7 +61,7 @@ export const Project: React.FC = () => {
   <section className="container my-5">
     <Card
     title="Our missions"
-    img={underwater}
+    img={imgMissions}
     imgSide="left"
     imgAlt="Groupe de dauphins"
     // subtitle=""

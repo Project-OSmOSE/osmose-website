@@ -3,16 +3,12 @@ div.home{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(34, 106, 189, 0.26);
-    /* background-color: rgba(57, 117, 136, 0.26); */
     background-blend-mode: multiply;
     min-height: 100vh;
-    /* padding-bottom: 3rem; */
 }
 
 div.home div.pagetitle {
-    min-height: 30vh;
-    height: 15rem;
-    /* max-height: fit-content; */
+    min-height: 15rem;
     border: 0;
     /* background-color: rgba(57, 117, 136, 0.26); */
     /* box-shadow: 0 0 50px 30px rgba(57, 117, 136, 0.26); */
@@ -23,7 +19,7 @@ div.home div.pagetitle img{
 }
 
 div.home h1{
-    font-size: 3.5rem;
+    font-size: 42px;
     text-align: left !important;
     text-transform: none !important;
     margin: 2rem;
@@ -32,42 +28,39 @@ div.home h1{
     /* box-shadow: 0 0 50px 30px rgba(57, 117, 136, 0.26); */
 }
 
-div.home h1 span{
-    font-size: 1rem;
+div.home h1 p.subtitle{
+    font-size: 20px;
     font-style: italic;
     letter-spacing: 2px;
-    line-height: 1.5rem;
-    /* padding: 1rem; */
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+
     div.home h1{
-        font-size: 4em;
+        font-size: 32px;
+        letter-spacing: 5px !important;
+    }
+    div.home h1 p.subtitle{
+        font-size: 18px;
     }
 
-    div.home h1 span{
-        font-size: 1.5rem;
-        letter-spacing: 2px;
-    }
-} */
+}
 
 div.home .grid {
     display: grid;
     -ms-grid-columns: auto;
-    grid-template-columns: auto;  /* on déclare 1 colonne de base */
+    grid-template-columns: auto;  /* 1 column for mobile display */
     padding: 0;
     margin: 0;
 }
 
 div.home .grid .card {
-    /* width: 70vw; */
-    /* height: 80vw; */
-    /* max-width: 70vw; */
-    max-height: 90vh;
+    max-height: 80vh;
+    border: 0;
 }
 
 @media screen and (min-width: 768px) {
-    /* two columns for big screens */
+    /* 2 columns for large screens */
     div.home .grid {
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -84,14 +77,6 @@ div.home .grid .card picture {
     min-height: 100%;
 }
 
-/* div.home .grid .card .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
-
 div.home .grid .card .overlay h2 {
     margin: 0;
     padding-top: 0;
@@ -100,7 +85,6 @@ div.home .grid .card .overlay h2 {
 div.home div.bottom-space{
     min-height: 20vh;
     height: 10rem;
-    /* max-height: fit-content; */
     border: 0;
 }
 

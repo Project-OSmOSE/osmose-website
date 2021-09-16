@@ -22,6 +22,7 @@ import juliePortrait from '../../images/people/team_Photo_Julie_420_420.webp'
 import maellePortrait from '../../images/people/maelle_portrait.jpg'
 import dorianPortrait from '../../images/people/team_dodo_420_420.webp'
 import paulPortrait from '../../images/people/Paul_200_200.webp'
+import alexPortrait from '../../images/people/alex.jpg'
 
 export const People: React.FC = () => {
   return (
@@ -49,9 +50,6 @@ export const People: React.FC = () => {
       <p>
       Launched in Brest (France) in 2018, OSmOSE is a multi-institutional research consortium composed of marine biologists, acousticians, data scientists and computer professionals.
       </p>
-      {/* <p>
-        OSmOSE est composé d'universitaires et de chercheurs travaillant dans le domaine de l'acoustique sous-marine, de l'observation des océans et de la protection de la biodiversité marine. Cette équipe, basée à Brest, s'est associée à des développeurs talentueux pour mettre en place des technologies d'analyse des sons océaniques.
-      </p> */}
         {/* OSmOSE is made of several teams working togeter:
 
         ODE (Ocean Data Explorer): develop all the computer technology used to manage and process Data (at scale with speed and in context, naturally Big)
@@ -86,7 +84,7 @@ export const People: React.FC = () => {
     imgAlt="Dorian’s portrait."
     job="Data Scientist"
     url="https://cazaudorian.wixsite.com/homepage"
-    urlDesc="Page personnelle"
+    urlDesc="Personnal page"
     >
       <p className="quote">
         I'm a french Assistant Professor specialized in Data Sciences for Ocean Sciences, currently working in the Lab-STICC at ENSTA Bretagne in Brest (French Brittany). <br/>
@@ -205,7 +203,7 @@ export const People: React.FC = () => {
   <section className="container my-5">
 
     <h2>Ancient members</h2>
-    <p>Acknowledgements.</p>
+    {/* <p>Acknowledgements.</p> */}
 
     <div className="grid-container">
       {/* <CardMemberTextless 
@@ -219,7 +217,7 @@ export const People: React.FC = () => {
       </CardMemberTextless> */}
 
       <CardMemberTextless 
-        img={defautPortrait}
+        img={alexPortrait}
         imgAlt="Alexandres portrait"
         name="Alexandre Degurse"
         // job=""

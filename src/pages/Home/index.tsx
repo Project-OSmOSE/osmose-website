@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_848.jpg';
-import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_848.jpg';
+import imgProject from '../../images/illust/pexels-elianne-dipp-4666753_848_636.webp';
+import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_848_636.webp';
 
 export const Home: React.FC = () => {
 return (
@@ -16,16 +16,15 @@ return (
   // imgAlt="Home banner" 
   // imgSet=""
   >
-    <h1 className="align-self-center">
-      OSmOSE<br />
-      <span>Open Science meets Ocean Sound Explorers</span>
-      {/* <span>Underwater passive acoustics for ocean observation</span> */}
+    <h1 className="m-1 m-sm-5 p-3 p-sm-5">
+      <p className="mb-4"> Open Science meets Ocean Sound Explorers </p>
+      <p className="mb-4 subtitle"> Underwater passive acoustics for ocean observation </p>
     </h1>
   </PageTitle>
 
   <div className="container-fluid grid">
 
-    <div className="card m-3 p-2 overflow-hidden posLeft">
+    <div className="card mx-3 mx-sm-5 p-2 overflow-hidden">
       <img 
       className="card-img-top" 
       alt="Capture d'&eacute;cran du projet." 
@@ -40,7 +39,7 @@ return (
       </div>
     </div>
 
-    <div className="card m-3 p-2 overflow-hidden posLeft">
+    <div className="card mx-3 mx-sm-5 p-2 overflow-hidden">
       <img 
       className="card-img-top" 
       alt="Capture d'&eacute;cran du projet." 
