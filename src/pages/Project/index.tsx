@@ -4,13 +4,13 @@ import { Card } from '../../components/Card';
 import { Banner } from '../../components/Banner';
 
 import './styles.css';
-import imgProject from '/public/img/illust/pexels-elianne-dipp-4666753_1280_thin.jpg';
-import imgNutshell from '/public/img/illust/640px-Petit_Minou_Lighthouse_(50691630801)_640_428.webp';
-import imgMissions from '/public/img/illust/thumbnail_4_Paysage_sonore_800_449.webp';
-import logoofb from '/public/img/logo/logo_ofb.png';
-import logoisblue from '/public/img/logo/logo_isblue3.png';
-import logothales from '/public/img/logo/logo_thales2.png';
-import logoFAIR from '/public/img/logo/logo_fairlogo.png';
+import imgProject from '../../img/illust/pexels-elianne-dipp-4666753_1280_thin.jpg';
+import imgNutshell from '../../img/illust/640px-Petit_Minou_Lighthouse_(50691630801)_640_428.webp';
+import imgMissions from '../../img/illust/thumbnail_4_Paysage_sonore_800_449.webp';
+import logoofb from '../../img/logo/logo_ofb.png';
+import logoisblue from '../../img/logo/logo_isblue3.png';
+import logothales from '../../img/logo/logo_thales2.png';
+import logoFAIR from '../../img/logo/logo_fairlogo.png';
 
 export const Project: React.FC = () => {
   return (

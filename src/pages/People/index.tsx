@@ -7,22 +7,22 @@ import { CardMemberTextless } from '../../components/CardMemberTextless';
 
 import './styles.css';
 
-import imgPeople from '/public/img/illust/pexels-daniel-torobekov-5901263_1280_thin.jpg';
-import teamWorking from '/public/img/people/TEAM_OSMOSE_666_500.webp';
+import imgPeople from '../../img/illust/pexels-daniel-torobekov-5901263_1280_thin.jpg';
+import teamWorking from '../../img/people/TEAM_OSMOSE_666_500.webp';
 
-import enstalogo from '/public/img/logo/logo_ensta.png';
-import ifremerlogo from '/public/img/logo/logo_ifremer.png';
-import ubologo from '/public/img/logo/logo2_ubo.png';
-import imtlogo from '/public/img/logo/logo_imt.jpg';
+import enstalogo from '../../img/logo/logo_ensta.png';
+import ifremerlogo from '../../img/logo/logo_ifremer.png';
+import ubologo from '../../img/logo/logo2_ubo.png';
+import imtlogo from '../../img/logo/logo_imt.jpg';
 
-import defautPortrait from '/public/img/people/default_profil.png'
-// import projectImg from '/public/img/logo_project.png';
-import florePortrait from '/public/img/people/team_flore_420_420.webp'
-import juliePortrait from '/public/img/people/team_Photo_Julie_420_420.webp'
-import maellePortrait from '/public/img/people/maelle_portrait.jpg'
-import dorianPortrait from '/public/img/people/team_dodo_420_420.webp'
-import paulPortrait from '/public/img/people/Paul_200_200.webp'
-import alexPortrait from '/public/img/people/alex.jpg'
+import defautPortrait from '../../img/people/default_profil.png'
+// import projectImg from '../../img/logo_project.png';
+import florePortrait from '../../img/people/team_flore_420_420.webp'
+import juliePortrait from '../../img/people/team_Photo_Julie_420_420.webp'
+import maellePortrait from '../../img/people/maelle_portrait.jpg'
+import dorianPortrait from '../../img/people/team_dodo_420_420.webp'
+import paulPortrait from '../../img/people/Paul_200_200.webp'
+import alexPortrait from '../../img/people/alex.jpg'
 
 export const People: React.FC = () => {
   return (

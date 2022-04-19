@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-import imgProject from '/public/img/illust/pexels-elianne-dipp-4666753_848_636.webp';
-import imgExplore from '/public/img/illust/pexels-jeremy-bishop-2422915_848_636.webp';
+import imgProject from '../../img/illust/pexels-elianne-dipp-4666753_848_636.webp';
+import imgExplore from '../../img/illust/pexels-jeremy-bishop-2422915_848_636.webp';
 
 export const Home: React.FC = () => {
   return (

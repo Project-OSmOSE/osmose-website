@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles.css';
-import ifremer from '/public/img/logo/logo_ifremer_blanc_267_250.webp';
+import ifremer from '../../img/logo/logo_ifremer_blanc_267_250.webp';
 
 export const Footer: React.FC = () => {
   return (

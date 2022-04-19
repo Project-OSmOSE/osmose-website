@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
-import logo from '/public/img/logo/logo_seul_couleur.png';
+import logo from '../../img/logo/logo_seul_couleur.png';
 
 export const Header: React.FC = () => {
   return (
