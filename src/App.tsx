@@ -14,23 +14,37 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Layout>
-          <Route exact path="/">
+
+        <Route exact path="/">
+          <Layout>
             <Home />
-          </Route>
-          <Route path="/project">
+          </Layout>
+        </Route>
+
+        <Route path="/project">
+          <Layout>
             <Project />
-          </Route>
-          <Route path="/explore">
+          </Layout>
+        </Route>
+
+        <Route path="/explore">
+          <Layout>
             <Explore />
-          </Route>
-          <Route path="/people">
+          </Layout>
+        </Route>
+
+        <Route path="/people">
+          <Layout>
             <People />
-          </Route>
-          <Route path="/ontology">
+          </Layout>
+        </Route>
+
+        <Route path="/ontology">
+          <Layout>
             <Ontology />
-          </Route>
-        </Layout>
+          </Layout>
+        </Route>
+
       </Switch>
     </Router>
   );

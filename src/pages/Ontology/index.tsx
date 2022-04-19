@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BreadCrumb } from '../../components/BreadCrumb';
-import { TreeList } from '../../components/TreeList';
+import { TagShowing } from '../../components/TagShowing';
 import { WorldMap } from '../../components/WorldMap';
 // import { Link } from 'react-router-dom';
 
-// import jsonFile from './ontology.json';
 import jsonFile from '../../ontology.json';
 import './styles.css';
 // import musicFile from '../../img/music_kkivb11.mp3';
@@ -39,6 +38,10 @@ console.log('tag contains : ', typeof tag, tag);
 
   // }
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
 <div className="ontology">
   <div className="container-fluid">
@@ -48,8 +51,8 @@ console.log('tag contains : ', typeof tag, tag);
   </div>
 
   <div className="container my-5">
-    <TreeList
-    tag={urlQuery}
+    <TagShowing
+    tagTitle={urlQuery}
     titleLevel="h1"
     />
   </div>

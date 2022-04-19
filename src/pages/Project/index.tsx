@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { PageTitle } from '../../components/PageTitle';
 import { Card } from '../../components/Card';
 import { Banner } from '../../components/Banner';
@@ -13,6 +13,10 @@ import logothales from '../../img/logo/logo_thales2.png';
 import logoFAIR from '../../img/logo/logo_fairlogo.png';
 
 export const Project: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
 <div className="project">
 

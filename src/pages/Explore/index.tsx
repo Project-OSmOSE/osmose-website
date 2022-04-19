@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import { Link } from 'react-router-dom';
 import { PageTitle } from '../../components/PageTitle';
 import { WorldMap } from '../../components/WorldMap';
 // import { TileLayer, Marker, Popup } from 'react-leaflet';
-import { TreeList } from '../../components/TreeList';
+import { TagShowing } from '../../components/TagShowing';
 
 import './styles.css';
 // import imgBanner from '../../img/maxresdefault.jpg';
@@ -18,6 +18,9 @@ export const Explore: React.FC = () => {
   // const jsonStr = JSON.stringify(jsonFile);
   // const jsonObject = JSON.parse(jsonStr);
   // console.log('jsonObject contains : ', typeof jsonObject, jsonObject);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
 <div className="explore">
@@ -45,8 +48,8 @@ export const Explore: React.FC = () => {
 
     <div className="container grid-container">
       <div className="half">
-        <TreeList
-        tag="delphinidae"
+        <TagShowing
+        tagTitle="delphinidae"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.delphinidae.engName}
@@ -56,8 +59,8 @@ export const Explore: React.FC = () => {
         // tagChildren={jsonObject.delphinidae.childrenTag}
         />
 
-        <TreeList
-        tag="monodontidae"
+        <TagShowing
+        tagTitle="monodontidae"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.monodontidae.engName}
@@ -67,8 +70,8 @@ export const Explore: React.FC = () => {
         // tagChildren={jsonObject.monodontidae.childrenTag}
         />
 
-        <TreeList
-        tag="mysticeti"
+        <TagShowing
+        tagTitle="mysticeti"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.mysticeti.engName}
@@ -80,13 +83,13 @@ export const Explore: React.FC = () => {
       </div>
 
       <div className="half">
-        <TreeList
-        tag="phocoeninae"
+        <TagShowing
+        tagTitle="phocoeninae"
         titleLevel="h3"
         />
 
-        <TreeList
-        tag="physeteroidea"
+        <TagShowing
+        tagTitle="physeteroidea"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.physeteroidea.engName}
@@ -96,8 +99,8 @@ export const Explore: React.FC = () => {
         // tagChildren={jsonObject.physeteroidea.childrenTag}
         />
 
-        <TreeList
-        tag="ziphidae"
+        <TagShowing
+        tagTitle="ziphidae"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.ziphidae.engName}
@@ -107,8 +110,8 @@ export const Explore: React.FC = () => {
         // tagChildren={jsonObject.ziphidae.childrenTag}
         />
 
-        <TreeList
-        tag="human"
+        <TagShowing
+        tagTitle="human"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.human.engName}
@@ -118,8 +121,8 @@ export const Explore: React.FC = () => {
         // tagChildren={jsonObject.human.childrenTag}
         />
 
-        <TreeList
-        tag="nature"
+        <TagShowing
+        tagTitle="nature"
         titleLevel="h3"
         // image="no"
         // tagName={jsonObject.nature.engName}
