@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles.css';
-import logo from '../../images/logo/logo_seul_couleur.png';
+import logo from '/public/img/logo/logo_seul_couleur.png';
 
 export const Header: React.FC = () => {
-return (
+  return (
 <header className="Navigation">
   <nav className="navbar navbar-expand-md navbar-light bg-light py-0" role="navigation">
 
@@ -35,5 +35,5 @@ return (
 
   </nav>
 </header>
-);
+  );
 }

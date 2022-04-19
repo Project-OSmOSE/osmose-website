@@ -6,10 +6,10 @@ import { WorldMap } from '../../components/WorldMap';
 import { TreeList } from '../../components/TreeList';
 
 import './styles.css';
-// import imgBanner from '../../images/maxresdefault.jpg';
-// import imgExplore from '../../images/pexels-daniel-torobekov-5901263_top.jpg';
-// import imgExplore from '../../images/pexels-elianne-dipp-4666753_2;1.jpg';
-import imgExplore from '../../images/illust/pexels-jeremy-bishop-2422915_1920_thin.jpg';
+// import imgBanner from '/public/img/maxresdefault.jpg';
+// import imgExplore from '/public/img/pexels-daniel-torobekov-5901263_top.jpg';
+// import imgExplore from '/public/img/pexels-elianne-dipp-4666753_2;1.jpg';
+import imgExplore from '/public/img/illust/pexels-jeremy-bishop-2422915_1920_thin.jpg';
 
 // import jsonFile from '../../ontology.json';
 

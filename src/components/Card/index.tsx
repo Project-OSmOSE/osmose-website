@@ -24,7 +24,7 @@ export const Card: React.FC<CardProps> = ({
   children
 }) => {
   return (
-  <div className="genericCard my-5">
+<div className="genericCard my-5">
   {title ? <h2>{title}</h2> : null}
   <div className="card genericCard my-3 border-0">
     <div className="row">
@@ -50,5 +50,5 @@ export const Card: React.FC<CardProps> = ({
     </div>
   </div>
 </div>
-);
+  );
 }

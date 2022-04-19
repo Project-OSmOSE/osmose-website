@@ -1,5 +1,5 @@
 div.home{
-    background-image: url('../../images/illust/pexels-berend-de-kort-1452701_1920_1077.webp');
+    background-image: url('/public/img/illust/pexels-berend-de-kort-1452701_1920_1077.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(34, 106, 189, 0.26);

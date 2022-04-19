@@ -5,8 +5,8 @@ import './styles.css';
 import jsonFile from '../../ontology.json';
 // import imgUrl from {imgPath + tagImage};
 // import imgUrl from imgPath;
-// import imgUrl from "../../images/ontology/{imgPath}";
-// import imgExample from '../../images/ontology/Physeter_macrocephalus_NOAA.jpg';
+// import imgUrl from "/public/img/ontology/{imgPath}";
+// import imgExample from '/public/img/ontology/Physeter_macrocephalus_NOAA.jpg';
 export interface TreeListProps {
   tag: string;
   titleLevel: string;
@@ -19,8 +19,8 @@ export const TreeList: React.FC<TreeListProps> = ({
   const jsonStr = JSON.stringify(jsonFile);
   const jsonObject = JSON.parse(jsonStr);
   // console.log('jsonObject contains : ', typeof jsonObject, jsonObject);
-  const imgPath = '../../images/ontology/';
-  // let imgExample = '../../images/ontology/Physeter_macrocephalus_NOAA.jpg';
+  const imgPath = '/public/img/ontology/';
+  // let imgExample = '/public/img/ontology/Physeter_macrocephalus_NOAA.jpg';
 
   // if (tag !== undefined && tag !== null){
   var tagName: string = jsonObject[tag].engName;

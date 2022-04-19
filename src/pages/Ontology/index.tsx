@@ -7,7 +7,7 @@ import { WorldMap } from '../../components/WorldMap';
 // import jsonFile from './ontology.json';
 import jsonFile from '../../ontology.json';
 import './styles.css';
-// import musicFile from '../../images/music_kkivb11.mp3';
+// import musicFile from '/public/img/music_kkivb11.mp3';
 
 // remplacer par (?) : ?q=valeurniveau1+valeurniveau2+valeurniveau3
 
