@@ -22,7 +22,8 @@ export const CardMember: React.FC<CardMemberProps> = ({
   url,
   urlDesc,
   children
-  }) => {
+}) => {
+
   return (
   <div className="card cardMember my-5 border-0">
     <div className="row no-gutters">
@@ -33,7 +34,7 @@ export const CardMember: React.FC<CardMemberProps> = ({
           {job ? <p className="card-text">
             <small className="text-muted">{job}</small>
           </p> : null}
-          <p className="card-text">{children}</p>
+          <div className="card-text">{children}</div>
           {url && urlDesc ? <p className="card-text">
             <a className="card-link" href={url}>{urlDesc}</a>
           </p> : null}

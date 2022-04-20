@@ -32,7 +32,9 @@ export const Card: React.FC<CardProps> = ({
       <div className="col-md-8 order-1">
         <div className="card-body">
           {subtitle ? <h4 className="card-title">{subtitle}</h4> : null}
-          <p className="card-text">{children}</p>
+          <div className="card-text">
+            {children}
+          </div>
           {url ? <p className="card-text">
             <Link className="card-link" to={url}>{urlDesc}</Link>
           </p> : null}

@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { PageTitle } from '../../components/PageTitle';
 import { Link } from 'react-router-dom';
 
@@ -8,9 +7,6 @@ import imgProject from '../../img/illust/pexels-elianne-dipp-4666753_848_636.web
 import imgExplore from '../../img/illust/pexels-jeremy-bishop-2422915_848_636.webp';
 
 export const Home: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
   
   return (
 <div className="home">

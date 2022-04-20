@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { PageTitle } from '../../components/PageTitle';
 import { Banner } from '../../components/Banner';
 import { Card } from '../../components/Card';
@@ -25,9 +24,6 @@ import paulPortrait from '../../img/people/Paul_200_200.webp'
 import alexPortrait from '../../img/people/alex.jpg'
 
 export const People: React.FC = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
   
   return (
 <div className="people">

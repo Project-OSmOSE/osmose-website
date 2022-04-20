@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { BreadCrumb } from '../../components/BreadCrumb';
 import { TagShowing } from '../../components/TagShowing';
 import { WorldMap } from '../../components/WorldMap';
@@ -14,10 +13,8 @@ export const Ontology: React.FC = () => {
 
 // page title got from url query
 let urlQuery = window.location.search.slice(1);
-// console.log('urlQuery contains : ', urlQuery);
-const jsonStr = JSON.stringify(jsonFile);
-const jsonObject = JSON.parse(jsonStr);
-let tag = jsonObject[urlQuery];
+const ontology = JSON.parse(JSON.stringify(jsonFile));
+let tag = ontology[urlQuery];
 console.log('tag contains : ', typeof tag, tag);
 
   // let name = jsonObject[tag].engName;
@@ -38,10 +35,6 @@ console.log('tag contains : ', typeof tag, tag);
 
   // }
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-
   return (
 <div className="ontology">
   <div className="container-fluid">
@@ -53,6 +46,7 @@ console.log('tag contains : ', typeof tag, tag);
   <div className="container my-5">
     <TagShowing
     tagTitle={urlQuery}
+    tagObject={ontology.urlQuery}
     titleLevel="h1"
     />
   </div>

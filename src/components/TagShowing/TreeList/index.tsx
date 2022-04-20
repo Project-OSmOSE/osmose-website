@@ -1,27 +1,25 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { TreeListItem } from '../TreeListItem';
 import './styles.css';
 
-export interface TreeListProps {
+interface TreeListProps {
   tagObject: any;
 }
 
-// return an array of <TreeListItem> or an empty array
-// verify null value
 function createItems(childrenTags: Array<string>){
-  let itemList: Array<any> = [];
-  if(childrenTags !== null){
-    itemList = childrenTags.map((value) => <TreeListItem tagTitle={value} />)
+  let elems: Array<any> = [];
+  if(childrenTags !== null || childrenTags !== undefined ){
+    elems = childrenTags.map((value) => <TreeListItem tagTitle={value} key={value} />)
   }
-  return itemList;
+  return elems;
 }
 
-export const TreeList: React.FC<TreeListProps> = (tagObject: any) => {
+export const TreeList: React.FC<TreeListProps> = (tagObject) => {
+
   return (
-    <div className="treelist" id={tagObject.engName + "-treelist"}>
+    <div className="treelist" id={tagObject.tagObject.engName + "-treelist"}>
       <ul>
-        {createItems(tagObject.childrenTag)}
+        {createItems(tagObject.tagObject.childrenTag)}
       </ul>
     </div>
   );

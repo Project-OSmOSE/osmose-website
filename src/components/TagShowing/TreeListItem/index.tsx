@@ -1,17 +1,22 @@
 import React from 'react';
 // import { TreeList } from '../TreeList';
-// import { Link } from 'react-router-dom';
 import './styles.css';
 
-export interface TreeListItemProps {
+// function getTagObject(tagName: string){
+//   const jsonObject = JSON.parse(JSON.stringify(jsonFile));
+//   const tagObject = jsonObject[tagName];
+//   return tagObject;
+// }
+
+interface TreeListItemProps {
   tagTitle: string;
 }
 
 export const TreeListItem: React.FC<TreeListItemProps> = (tagTitle) => {
 
   return (
-    <li className="treelistitem" id={tagTitle + "-treelistitem"}>
-      {tagTitle}
+    <li className="treelistitem">
+      <a href={"/ontology?" + tagTitle.tagTitle}> {tagTitle.tagTitle} </a>
     </li>
   );
 }
